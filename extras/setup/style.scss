@@ -1,0 +1,80 @@
+@import "../bower_components/normalize-scss/_normalize.scss";
+@import "../bower_components/typeplate-starter-kit/css/_typeplate.scss";
+@import "./mixins.scss";
+
+/**
+ * BOX-SIZING
+ */
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/**
+ * GRIDS
+ */
+
+.grid {
+    width: 100%;
+    display: block;
+    font-size: 0;
+    text-align: justify;
+    position: relative;
+
+    & > * {
+        font-size: medium;
+        text-align: left;
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+    }
+
+    &:after {
+        display: inline-block;
+        width: 100%;
+        content: "";
+        font-size: medium;
+    }
+}
+
+@include gridify(2, 400);
+@include gridify(4, 600);
+
+/**
+ * PACE (automatic pre-loader thingy)
+ */
+
+.pace {
+    pointer-events: none;
+    user-select: none;
+    transition: all 1s ease;
+}
+
+.pace-inactive {
+    opacity: 0;
+}
+
+.pace-active {
+    opacity: 1;
+}
+
+.pace .pace-progress {
+    background: #2299dd;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 2px;
+    transition: all 1s ease;
+}
+
+/**
+ * GENERAL
+ */
+
+img {max-width:100%;}
+
+body {
+    transition: opacity .25s ease;
+}

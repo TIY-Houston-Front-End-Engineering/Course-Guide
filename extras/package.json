@@ -1,0 +1,57 @@
+{
+    "main": "server.js",
+    "scripts": {
+        "build:css": "mkfifo scssify; node_modules/.bin/node-sass ./scss/style.scss --stdout | ./node_modules/.bin/autoprefixer -b 'last 10 versions' > scssify & ./node_modules/.bin/csso --output ./dist/style.css --input scssify; rm scssify; tput bel; echo '--------- sassified.';",
+        "watch:css": "./node_modules/.bin/chokidar-cmd -c 'npm run build:css' -t ./scss/",
+
+        "test": "mocha ./js/test/; echo '----- tests done';",
+        "lint": "jshint ./js/**.js; echo '----- linting done';",
+
+        "watch:js": "watchify ./js/app-browserify.js -t babelify -o ./dist/app-browserify.js",
+        "watch:js-min": "watchify ./js/app-browserify.js -t babelify -t uglifyify -o ./dist/app-browserify.js",
+        "watch": "parallelshell 'npm run watch:css' 'npm run watch:js';",
+
+        "start": "node heroku-server.js & npm run watch",
+        "postinstall": "[ ! -d scss ] && mkdir scss; [ ! -d dist ] && mkdir dist; [ ! -d js ] && mkdir js; [ ! -d templates ] && mkdir templates; [ ! -d js/test ] && mkdir js/test; [ ! -f js/app.js ] && npm run init-git && npm run prereqs && npm run finish-commits; echo 'doneskis';",
+        "finish-commits": "git add --all . && git commit -am 'initial commit, project setup complete'; git branch gh-pages; echo 'commits finished';",
+        "init-git": "[ ! -e '.git' ] && git init; echo 'initted';",
+        "prereqs": "npm run bower; npm run copy_files; npm run heroku:server; npm run heroku:loader; npm run heroku:procfile; npm run ignores; npm run prereqs:app-browserify-js; npm run prereqs:index; npm run prereqs:scss; npm run prereqs:mainjs; npm run prereqs:personjs; npm run prereqs:templateviewjs; echo '' >> dist/app-browserify.js; echo '' >> dist/style.css; npm run post-commit;",
+        "bower": "bower install normalize-scss pace typeplate-starter-kit --save;",
+        "copy_files": "cp ./bower_components/typeplate-starter-kit/css/typeplate.css ./bower_components/typeplate-starter-kit/css/_typeplate.scss;",
+
+        "prereqs:app-browserify-js": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Jan-2015/master/extras/setup/app-browserify.js --retry 5 > ./js/app-browserify.js",
+        "prereqs:mainjs": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Jan-2015/master/extras/setup/main.js --retry 5 > ./js/test/main.js",
+        "prereqs:personjs": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Jan-2015/master/extras/setup/Person.js --retry 5 > ./js/Person.js",
+        "prereqs:templateviewjs": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Jan-2015/master/extras/setup/TemplateView.js --retry 5 > ./js/TemplateView.js",
+        "prereqs:index": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Jan-2015/master/extras/setup/index.html --retry 5 > ./index.html",
+        "prereqs:scss": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Jan-2015/master/extras/setup/style.scss --retry 5 > ./scss/style.scss && curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Jan-2015/master/extras/setup/mixins.scss > ./scss/mixins.scss",
+
+        "heroku:procfile": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Jan-2015/master/extras/setup/Procfile --retry 5 > Procfile",
+        "heroku:server": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Jan-2015/master/extras/setup/server.js --retry 5 > ./server.js",
+        "heroku:loader": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Sept-2014/Notes/master/examples/extras/heroku-server.js --retry 5 > ./heroku-server.js",
+
+        "ignores": "echo 'node_modules' > .gitignore;",
+        "post-commit": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Jan-2015/master/extras/setup/git-hook-post-commit.sh --retry 5 > .git/hooks/post-commit; chmod a+x .git/hooks/post-commit;"
+    },
+    "dependencies": {
+        "autoprefixer": "^5.1.0",
+        "babel": "^4.7.8",
+        "babelify": "^5.0.4",
+        "backbone": "^1.1.2",
+        "browserify": "^9.0.3",
+        "chai": "^2.1.1",
+        "csso": "^1.3.11",
+        "express": "^4.12.2",
+        "jquery": "^2.1.3",
+        "lodash": "^3.5.0",
+        "mocha": "^2.2.1",
+        "node-sass": "^2.1.1",
+        "parallelshell": "^1.1.1",
+        "chokidar-cmd": "^1.1.0",
+        "parse": "^1.3.5",
+        "react": "^0.13.1",
+        "request": "^2.53.0",
+        "uglifyify": "^3.0.1",
+        "watchify": "^2.4.0"
+    }
+}
