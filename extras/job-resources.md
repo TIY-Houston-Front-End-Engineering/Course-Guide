@@ -43,7 +43,7 @@
 
 > exclusively remote
 - https://weworkremotely.com/
-- http://workingnomads.co/
+- http://www.workingnomads.co/jobs
 - http://remotedigest.com/
 - https://remotecoder.io/
 - https://jobsremotely.com/
