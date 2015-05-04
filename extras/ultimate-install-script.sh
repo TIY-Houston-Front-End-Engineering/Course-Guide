@@ -7,11 +7,11 @@ if test ! $(which brew); then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+xcodebuild -license
+
 # Get XCode commandline tools without the giant xcode download???
 xcode-select --install
 sudo xcode-select -switch /Library/Developer/CommandLineTools
-
-xcodebuild -license
 
 # Update homebrew recipes
 brew update
