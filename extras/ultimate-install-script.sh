@@ -7,6 +7,10 @@ if test ! $(which brew); then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+# Get XCode commandline tools without the giant xcode download???
+xcode-select --install
+sudo xcode-select -switch /Library/Developer/CommandLineTools
+
 xcodebuild -license
 
 # Update homebrew recipes
@@ -51,6 +55,7 @@ apps=(
   flux
   vlc
   iojs
+  Caskroom/cask/slack
 )
 
 # Install apps to /Applications
