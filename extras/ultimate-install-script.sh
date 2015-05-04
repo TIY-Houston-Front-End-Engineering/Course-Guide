@@ -56,6 +56,7 @@ apps=(
   vlc
   iojs
   Caskroom/cask/slack
+  Caskroom/cask/cheatsheet
 )
 
 # Install apps to /Applications
