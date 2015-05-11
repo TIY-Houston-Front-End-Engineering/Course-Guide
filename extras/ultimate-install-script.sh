@@ -37,15 +37,15 @@ binaries=(
   ffmpeg
   python
   git
+  iojs
+  npm
+  hub
 )
 
 echo "installing binaries..."
 brew install ${binaries[@]}
-
 brew cleanup
-
 brew install caskroom/cask/brew-cask
-
 brew tap caskroom/versions
 
 # Apps
@@ -53,8 +53,6 @@ apps=(
   google-chrome
   sublime-text3
   flux
-  vlc
-  iojs
   Caskroom/cask/slack
   Caskroom/cask/cheatsheet
 )
@@ -458,12 +456,13 @@ defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 echo ""
 echo "Linking Sublime Text command line"
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+rm /usr/local/bin/subl
 echo ""
 echo "Setting Git to use Sublime Text as default editor"
 git config --global core.editor "sublime -n -w"
 echo ""
 echo "Removing Mission Control as it interferes with Sublime Text keyboard shortcut for selecting multiple lines"
-defaults write com.apple.dock mcx-expose-disabled -bool TRUE
+# defaults write com.apple.dock mcx-expose-disabled -bool TRUE
 
 ###############################################################################
 # Kill affected applications

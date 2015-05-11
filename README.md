@@ -117,3 +117,7 @@ Sounds boring, but these are important:
 - Honor - You are expected to do your own work. If you don't, why are you here? You should use all resources available to you, including open-source code, but copy and pasting open-source code is prohibited: you should use it only for inspiration or as a library in a bigger project. Copying homework is taken very seriously and can result in forfeiting career support.
 
 - Conduct - I run a class based on human decency and respect - I want everyone to be welcome. Generally spoken, if something can be taken the wrong way, be careful how you say it! Got an issue with someone? **If you ever have any issues, just reach out to me or any of The Iron Yard employees. I promise we will represent everyone fairly and equally, and we generally care for the well-being of our students.**
+
+**Code School Manifesto**
+
+> http://masondesu.github.io/code-school-manifesto/

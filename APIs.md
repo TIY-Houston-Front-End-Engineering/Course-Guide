@@ -135,6 +135,7 @@ Method 3 is a little harder for us to implement in the browser. Instead, use eit
     - Hipchat API - https://www.hipchat.com/docs/apiv2
     - Zapier - https://zapier.com/developer/documentation/getting-started/
     - Evernote - https://dev.evernote.com/doc/
+    - Marvel - http://developer.marvel.com/docs
 
 - Dictionary / Words / Thesaurus APIs
 
@@ -344,3 +345,4 @@ Method 3 is a little harder for us to implement in the browser. Instead, use eit
 - nwjs
 - https://www.nativescript.org/
 - appcelerator
+- react native
