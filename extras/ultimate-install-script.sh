@@ -37,7 +37,7 @@ binaries=(
   ffmpeg
   python
   git
-  iojs
+  node
   npm
   hub
 )
