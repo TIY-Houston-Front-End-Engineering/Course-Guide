@@ -1,0 +1,23 @@
+{
+    "auto_find_in_selection": false,
+    "color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
+    "detect_indentation": false,
+    "drag_text": true,
+    "draw_white_space": "all",
+    "ensure_newline_at_eof_on_save": false,
+    "find_selected_text": false,
+    "font_size": 11,
+    "ignored_packages":
+    [
+        "Markdown",
+        "Vintage"
+    ],
+    "indent_guide_options":
+    [
+        "draw_active"
+    ],
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "word_wrap": true
+}
