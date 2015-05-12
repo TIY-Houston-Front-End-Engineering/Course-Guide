@@ -8,7 +8,7 @@
         "watch:css": "./node_modules/.bin/chokidar-cmd -c 'npm run build:css' -t ./scss/",
         "test": "mocha ./js/test/; echo '----- tests done';",
         "lint": "jshint ./js/**.js; echo '----- linting done';",
-        "watch:js": "watchify ./js/app-browserify.js -t babelify -o ./dist/app-browserify.js",
+        "watch:js": "watchify ./js/app-browserify.js -t babelify -o ./dist/app-browserify.js -d",
         "watch:js-min": "watchify ./js/app-browserify.js -t babelify -t uglifyify -o ./dist/app-browserify.js",
         "watch": "parallelshell 'npm run watch:css' 'npm run watch:js';",
 
@@ -16,7 +16,7 @@
         "postinstall": "[ ! -d scss ] && mkdir scss; [ ! -d dist ] && mkdir dist; [ ! -d js ] && mkdir js; [ ! -d templates ] && mkdir templates; [ ! -d js/test ] && mkdir js/test; [ ! -f js/app.js ] && npm run init-git && npm run prereqs && npm run finish-commits; echo 'doneskis';",
         "finish-commits": "git add --all . && git commit -am 'initial commit, project setup complete'; git branch gh-pages; echo 'commits finished';",
         "init-git": "[ ! -e '.git' ] && git init; echo 'initted';",
-        "prereqs": "npm run bower; npm run copy_files; npm run heroku:server; npm run heroku:loader; npm run heroku:procfile; npm run ignores; npm run prereqs:app-browserify-js; npm run prereqs:index; npm run prereqs:scss; npm run prereqs:mainjs; npm run prereqs:personjs; npm run prereqs:templateviewjs; echo '' >> dist/app-browserify.js; echo '' >> dist/style.css; npm run post-commit;",
+        "prereqs": "npm run bower; npm run copy_files; npm run heroku:server; npm run heroku:loader; npm run heroku:procfile; npm run ignores; npm run prereqs:app-browserify-js; npm run prereqs:index; npm run prereqs:scss; npm run prereqs:mainjs; npm run prereqs:personjs; npm run prereqs:templateviewjs; echo '' >> dist/app-browserify.js; echo '' >> dist/style.css;",
         "bower": "bower install normalize-scss pace typeplate-starter-kit --save;",
         "copy_files": "cp ./bower_components/typeplate-starter-kit/css/typeplate.css ./bower_components/typeplate-starter-kit/css/_typeplate.scss;",
 
