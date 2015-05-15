@@ -12,6 +12,8 @@
         "watch:js-min": "watchify ./js/app-browserify.js -t babelify -t uglifyify -o ./dist/app-browserify.js",
         "watch": "parallelshell 'npm run watch:css' 'npm run watch:js';",
 
+        "deploy": "git add . && git commit -m 'autodeploy' && git push origin --all",
+
         "start": "node heroku-server.js & npm run watch",
         "postinstall": "[ ! -d scss ] && mkdir scss; [ ! -d dist ] && mkdir dist; [ ! -d js ] && mkdir js; [ ! -d templates ] && mkdir templates; [ ! -d js/test ] && mkdir js/test; [ ! -f js/app.js ] && npm run init-git && npm run prereqs && npm run finish-commits; echo 'doneskis';",
         "finish-commits": "git add --all . && git commit -am 'initial commit, project setup complete'; git branch gh-pages; echo 'commits finished';",
@@ -31,8 +33,7 @@
         "heroku:server": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Backbone-React-ES6/master/extras/setup/server.js --retry 5 > ./server.js",
         "heroku:loader": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Sept-2014/Notes/master/examples/extras/heroku-server.js --retry 5 > ./heroku-server.js",
 
-        "ignores": "echo 'node_modules' > .gitignore;",
-        "post-commit": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Backbone-React-ES6/master/extras/setup/git-hook-post-commit.sh --retry 5 > .git/hooks/post-commit; chmod a+x .git/hooks/post-commit;"
+        "ignores": "echo 'node_modules' > .gitignore;"
     },
     "devDependencies": {
         "autoprefixer": "^5.1.0",

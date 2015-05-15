@@ -1,12 +1,12 @@
 "use strict";
 
-var ParseOrBackbone = require("parse") // change to "backbone" if not using Parse
-var _ = require("lodash")
-var $ = require("jquery")
-var TemplateView = ParseOrBackbone.View.extend({
+let ParseOrBackbone = require("parse") // change to "backbone" if not using Parse
+let _ = require("lodash")
+let $ = require("jquery")
+let TemplateView = ParseOrBackbone.View.extend({
     cache: {},
     stream: function(url) {
-        var x = $.Deferred()
+        let x = $.Deferred()
         if (this.cache[url]) {
             x.resolve(this.cache[url])
         } else {
