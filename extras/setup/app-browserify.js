@@ -7,12 +7,11 @@ require("babel/register")
 var Pace = require("../bower_components/pace/pace.js")
 
 // require your own libraries, too!
-// var _777 = require("./777.js")
+var Router = require('./app.js')
 
-window.onload = app;
+window.addEventListener('load', app)
 
-function app(){
-    document.querySelector("html").style.opacity = 1;
-    // start app?
-    // new _777.SevensRouter();
+function app() {
+    // start app
+    new Router()
 }
