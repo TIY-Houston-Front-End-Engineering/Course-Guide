@@ -50,11 +50,11 @@
     "fetch": "^0.3.6",
     "jquery": "^2.1.4",
     "parse": "^1.4.2",
-    "react": "^0.13.3"
+    "react": "^0.13.3",
+    "underscore": "^1.8.3"
   },
   "dependencies": {
     "express": "^4.12.3",
-    "underscore": "^1.8.3",
     "request": "^2.55.0"
   }
 }
