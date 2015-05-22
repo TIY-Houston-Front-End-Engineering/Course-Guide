@@ -8,7 +8,7 @@ function startServer() {
         path = require('path'),
         app = express(),
         request = require('request'),
-        _ = require('lodash');
+        _ = require('underscore');
 
     function querify(queryParamsObject){
         return '?'+_.map(queryParamsObject || {}, function(val, key){

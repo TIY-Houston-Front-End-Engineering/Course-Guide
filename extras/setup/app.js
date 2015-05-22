@@ -1,7 +1,7 @@
 var BB = require('backbone'),
     // use vanilla JS instead of jQuery for views / DOM stuff
     NV = require('backbone.nativeview'),
-    _ = require('lodash')
+    _ = require('underscore')
 
 // use vanilla JS for AJAX too (also uses window.fetch()
 // polyfill, which that itself uses the es6-promise polyfill.)
