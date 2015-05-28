@@ -50,6 +50,7 @@ apps=(
   flux
   Caskroom/cask/slack
   Caskroom/cask/cheatsheet
+  Caskroom/cask/spectacle
 )
 
 # "installing binaries..."
