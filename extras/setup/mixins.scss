@@ -1,9 +1,0 @@
-@mixin gridify($col, $width, $gutter: 2) {
-    @media only screen and (min-width: #{$width}#{"px"}){
-        .grid-#{$col}-#{$width} {
-            & > * {
-                width: #{(100 / $col) - $gutter}#{"%"};
-            }
-        }
-    }
-}
