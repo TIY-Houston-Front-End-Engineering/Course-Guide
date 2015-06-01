@@ -60,7 +60,8 @@
         "autoprefixer": "^5.2.0",
         "postcss-conditionals": "^1.2.0",
         "postcss-mixins": "^0.3.0",
-        "postcss-nested": "^0.3.1"
+        "postcss-nested": "^0.3.1",
+        "es5-shim": "^4.1.4"
     },
     "dependencies": {
         "express": "^4.12.3",
