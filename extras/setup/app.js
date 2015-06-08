@@ -1,12 +1,5 @@
 var BB = require('backbone'),
-    // use vanilla JS instead of jQuery for views / DOM stuff
-    NV = require('backbone.nativeview'),
     _ = require('underscore')
-
-// use vanilla JS for AJAX too (also uses window.fetch()
-// polyfill, which that itself uses the es6-promise polyfill.)
-// Native ALL TEH THINGS!
-BB.ajax = require('backbone.nativeajax')
 
 export default BB.Router.extend({
     initialize() {
@@ -22,7 +15,7 @@ export default BB.Router.extend({
     }
 })
 
-var testView = BB.NativeView.extend({
+var testView = BB.extend({
     el: '.container',
     initialize() {
 
