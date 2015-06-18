@@ -4,7 +4,7 @@
         "node": "0.12.x"
     },
     "scripts": {
-        "build:css": "./node_modules/.bin/postcss --use postcss-import --use postcss-mixins --use postcss-simple-vars --use postcss-calc --use postcss-nested --use postcss-conditionals --use postcss-for --use postcss-each --use postcss-simple-extend --use autoprefixer --use csswring -o ./dist/style.css scss/style.scss; tput bel; echo '--------- sassified.';",
+        "build:css": "./node_modules/.bin/postcss --use postcss-import --use postcss-mixins --use postcss-simple-vars --use postcss-calc --use postcss-nested --use postcss-conditionals --use postcss-for --use postcss-each --use postcss-simple-extend --use autoprefixer --use csswring -o ./dist/style.css scss/style.scss;",
         "watch:css": "./node_modules/.bin/chokidar-cmd -c 'npm run build:css' -t ./scss/",
         "test": "mocha ./js/test/; echo '----- tests done';",
         "lint": "jshint ./js/**.js; echo '----- linting done';",
@@ -34,7 +34,6 @@
         "chai": "^2.3.0",
         "chokidar-cmd": "^1.1.0",
         "mocha": "^2.2.5",
-        "parallelshell": "^1.1.1",
         "uglifyify": "^3.0.1",
         "watchify": "^3.2.1",
         "es6-promise": "^2.1.1",
