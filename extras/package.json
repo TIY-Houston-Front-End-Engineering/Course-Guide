@@ -29,14 +29,12 @@
     },
     "devDependencies": {
         "babelify": "^6.1.1",
-        "backbone": "~1.2.1",
         "browserify": "^10.2.0",
         "chai": "^2.3.0",
         "chokidar-cmd": "^1.1.0",
         "mocha": "^2.2.5",
         "uglifyify": "^3.0.1",
         "watchify": "^3.2.1",
-        "underscore": "^1.8.3",
         "csswring": "^3.0.5",
         "nodemon": "^1.3.7",
         "postcss": "^4.1.11",
@@ -51,9 +49,9 @@
         "postcss-conditionals": "^1.2.0",
         "postcss-mixins": "^0.3.0",
         "postcss-nested": "^0.3.1",
-        "es5-shim": "^4.1.4"
     },
     "dependencies": {
+        "es5-shim": "^4.1.4",
         "express": "^4.12.3",
         "request": "^2.55.0",
         "babel": "^5.4.3",
@@ -61,6 +59,8 @@
         "node-fetch": "^1.2.1",
         "whatwg-fetch": "^0.8.2",
         "jquery": "~2.1.4",
-        "react": "^0.13.3"
+        "react": "^0.13.3",
+        "underscore": "^1.8.3",
+        "backbone": "^1.2.1"
     }
 }
