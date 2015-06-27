@@ -1,32 +1,26 @@
 {
-    "main": "server.js",
     "engines": {
-        "node": "0.12.x"
+        "node": "^0.12.5"
     },
     "scripts": {
         "build:css": "postcss --use postcss-import --use postcss-mixins --use postcss-simple-vars --use postcss-calc --use postcss-nested --use postcss-conditionals --use postcss-for --use postcss-each --use postcss-simple-extend --use autoprefixer --use csswring -o ./dist/style.css scss/style.scss;",
         "watch:css": "chokidar-cmd -c 'npm run build:css' -t ./scss/",
         "test": "mocha ./js/test/; echo '----- tests done';",
-        "lint": "jshint ./js/**.js; echo '----- linting done';",
-        "watch:js": "watchify ./js/app-browserify.js -t [ babelify --optional runtime ] -o ./dist/app-browserify.js -d",
-        "watch:js-min": "watchify ./js/app-browserify.js -t [ babelify --optional runtime ] -t uglifyify -o ./dist/app-browserify.js",
-        "watch": "npm run watch:css & npm run watch:js;",
-        "start": "babel-node heroku-server.js & npm run watch",
-        "start-with-server-watch": "nodemon --watch . --ext js,jsx heroku-server.js & npm run watch",
-        "postinstall": "npm run global_installs && npm run download_files",
+        "watch:js-min": "watchify ./js/app-browserify.js -t [ babelify --optional runtime ] -t uglifyify -o ./dist/app-browserify.js -d",
+        "watch": "npm run watch:css & npm run watch:js-min;",
+        "server": "nodemon --watch . --ext js,jsx heroku-server.js & npm run watch",
+        "start": "node --harmony --use_strict --harmony_generators heroku-server.js",
+        "s": "npm run start & npm run watch",
+        "n": "clear && node --harmony --use_strict --harmony_generators",
+
+        "setup": "npm run global_installs && npm run download_files",
         "global_installs": "PACKS=\"autoprefixer@^5.2.0 babel-runtime@^5.6.5 babel@^5.6.7 babelify@^6.1.1 browserify@^10.2.0 chai@^2.3.0 chokidar-cmd@^1.1.0 csswring@^3.0.5 mocha@^2.2.5 nodemon@^1.3.7 postcss@^4.1.11 postcss-calc@^4.0.1 postcss-cli@^1.3.1 postcss-conditionals@^1.2.0 postcss-each@^0.2.0 postcss-for@^1.0.1 postcss-import@^5.2.2 postcss-mixins@^0.3.0 postcss-nested@^0.3.1 postcss-simple-extend@^0.3.1 postcss-simple-vars@^0.3.0 uglifyify@^3.0.1 watchify@^3.2.1\" && npm install -g $PACKS && npm link $PACKS",
+
         "download_files": "[ ! -d scss ] && mkdir scss; [ ! -d dist ] && mkdir dist; [ ! -d js ] && mkdir js; [ ! -d templates ] && mkdir templates; [ ! -d js/test ] && mkdir js/test; [ ! -f js/app-browserify.js ] && npm run init-git && npm run prereqs && npm run finish-commits; echo 'doneskis';",
         "finish-commits": "git add --all . && git commit -am 'initial commit, project setup complete'; git branch gh-pages; echo 'commits finished';",
         "init-git": "[ ! -e '.git' ] && git init; echo 'initted';",
-        "prereqs": "npm run bower; npm run heroku:server; npm run heroku:loader; npm run heroku:procfile; npm run ignores; npm run prereqs:app-browserify-js; npm run prereqs:index; npm run prereqs:scss; npm run prereqs:mainjs; echo '' >> dist/app-browserify.js; echo '' >> dist/style.css;",
+        "prereqs": "npm run bower; URL=https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Backbone-React-ES6/master/extras/setup/; curl $URL/main.js --retry 5 > ./js/test/main.js; curl $URL/index.html --retry 5 > ./index.html; curl $URL/style.scss --retry 5 > ./scss/style.scss; curl $URL/server.js --retry 5 > ./server.js; curl $URL/heroku-server.js --retry 5 > ./heroku-server.js; curl $URL/app-browserify.js --retry 5 > ./js/app-browserify.js;",
         "bower": "bower install normalize-css pace typeplate-starter-kit --save;",
-        "prereqs:app-browserify-js": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Backbone-React-ES6/master/extras/setup/app-browserify.js --retry 5 > ./js/app-browserify.js",
-        "prereqs:mainjs": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Backbone-React-ES6/master/extras/setup/main.js --retry 5 > ./js/test/main.js",
-        "prereqs:index": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Backbone-React-ES6/master/extras/setup/index.html --retry 5 > ./index.html",
-        "prereqs:scss": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Backbone-React-ES6/master/extras/setup/style.scss --retry 5 > ./scss/style.scss",
-        "heroku:procfile": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Backbone-React-ES6/master/extras/setup/Procfile --retry 5 > Procfile",
-        "heroku:server": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Backbone-React-ES6/master/extras/setup/server.js --retry 5 > ./server.js",
-        "heroku:loader": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Sept-2014/Notes/master/examples/extras/heroku-server.js --retry 5 > ./heroku-server.js",
         "ignores": "echo 'node_modules' > .gitignore;"
     },
     "dependencies": {
@@ -39,6 +33,8 @@
         "jquery": "~2.1.4",
         "react": "^0.13.3",
         "underscore": "^1.8.3",
-        "backbone": "^1.2.1"
+        "backbone": "^1.2.1",
+        "babel": "^5.6.7",
+        "babel-runtime": "^5.6.5"
     }
 }
