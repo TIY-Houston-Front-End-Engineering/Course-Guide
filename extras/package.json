@@ -14,7 +14,7 @@
         "n": "clear && node --harmony --use_strict --harmony_generators",
 
         "preinstall": "npm install --ignore-scripts",
-        "postinstall": "npm run msg;",
+        "postinstall": "npm run resources && npm run msg;",
         "msg": "# ---------------------------------\n # \n # \n # Do either 1 or 2, not both:\n # \n # 1. If you have your global tools installed: _npm run linkup_.\n # 2. If you don't yet have your global tools installed: _npm run setup_.\n # \n # \n # ---------------------------------\n # \"",
 
         "setup": "npm run global_installs && npm run linkup",
