@@ -18,9 +18,8 @@
         "msg": "# ---------------------------------\n # \n # \n # Do either 1 or 2, not both:\n # \n # 1. If you have your global tools installed: _npm run linkup_.\n # 2. If you don't yet have your global tools installed: _npm run setup_.\n # \n # \n # ---------------------------------\n # \"",
 
         "setup": "npm run global_installs && npm run linkup",
-        "PACKS": "echo autoprefixer@^5.2.0 babel-runtime@^5.6.5 babel@^5.6.7 babelify@^6.1.1 browserify@^10.2.0 chai@^2.3.0 chokidar-cmd@^1.1.0 csswring@^3.0.5 mocha@^2.2.5 nodemon@^1.3.7 postcss@^4.1.11 postcss-calc@^4.0.1 postcss-cli@^1.3.1 postcss-conditionals@^1.2.0 postcss-each@^0.2.0 postcss-for@^1.0.1 postcss-import@^5.2.2 postcss-mixins@^0.3.0 postcss-nested@^0.3.1 postcss-simple-extend@^0.3.1 postcss-simple-vars@^0.3.0 uglifyify@^3.0.1 watchify@^3.2.1",
-        "global_installs": "npm install -g `npm run PACKS`",
-        "linkup": "npm link `npm run PACKS`",
+        "global_installs": "npm install -g autoprefixer@^5.2.0 babel-runtime@^5.6.5 babel@^5.6.7 babelify@^6.1.1 browserify@^10.2.0 chai@^2.3.0 chokidar-cmd@^1.1.0 csswring@^3.0.5 mocha@^2.2.5 nodemon@^1.3.7 postcss@^4.1.11 postcss-calc@^4.0.1 postcss-cli@^1.3.1 postcss-conditionals@^1.2.0 postcss-each@^0.2.0 postcss-for@^1.0.1 postcss-import@^5.2.2 postcss-mixins@^0.3.0 postcss-nested@^0.3.1 postcss-simple-extend@^0.3.1 postcss-simple-vars@^0.3.0 uglifyify@^3.0.1 watchify@^3.2.1",
+        "linkup": "npm link autoprefixer@^5.2.0 babel-runtime@^5.6.5 babel@^5.6.7 babelify@^6.1.1 browserify@^10.2.0 chai@^2.3.0 chokidar-cmd@^1.1.0 csswring@^3.0.5 mocha@^2.2.5 nodemon@^1.3.7 postcss@^4.1.11 postcss-calc@^4.0.1 postcss-cli@^1.3.1 postcss-conditionals@^1.2.0 postcss-each@^0.2.0 postcss-for@^1.0.1 postcss-import@^5.2.2 postcss-mixins@^0.3.0 postcss-nested@^0.3.1 postcss-simple-extend@^0.3.1 postcss-simple-vars@^0.3.0 uglifyify@^3.0.1 watchify@^3.2.1",
 
         "resources": "[ ! -d scss ] && mkdir scss; [ ! -d dist ] && mkdir dist; [ ! -d js ] && mkdir js; [ ! -d templates ] && mkdir templates; [ ! -d js/test ] && mkdir js/test; [ ! -f js/app-browserify.js ] && npm run init-git && npm run prereqs && npm run finish-commits; echo 'doneskis';",
         "finish-commits": "git add --all . && git commit -am 'initial commit, project setup complete'; git branch gh-pages; echo 'commits finished';",
