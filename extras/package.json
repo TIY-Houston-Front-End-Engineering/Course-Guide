@@ -40,6 +40,9 @@
         "underscore": "^1.8.3",
         "backbone": "^1.2.1",
         "babel": "^5.6.7",
-        "babel-runtime": "^5.6.5"
+        "babel-runtime": "^5.6.5",
+        "csurf": "^1.8.3",
+        "express-session": "^1.11.3",
+        "method-override": "^2.3.3"
     }
 }

@@ -4,7 +4,10 @@ var express = require('express'),
     http = require('http'),
     path = require('path'),
     app = express(),
-    request = require('request')
+    request = require('request'),
+    session = require('express-session'),
+    csrf = require('csurf'),
+    override = require('method-override')
 
 function startServer() {
 
@@ -15,8 +18,11 @@ function startServer() {
     // adds a new rule to proxy a localUrl -> webUrl
     // i.e. proxify ('/my/server/google', 'http://google.com/')
     function proxify(localUrl, webUrl){
-        app.get(localUrl, function(req, res) {
-            req.pipe( request(webUrl + querify(req.query)) ).pipe(res)
+        app.get(localUrl, (req, res) => {
+            var remote = webUrl.match(/:(\w+)/ig).reduce((a, t) => {
+                return a.replace(new RegExp(t, 'ig'), req.params[t.substr(1)])
+            }, webUrl)
+            req.pipe( request(remote + querify(req.query)) ).pipe(res)
         })
     }
 
@@ -29,6 +35,25 @@ function startServer() {
     // all environments
     app.set('port', process.argv[3] || process.env.PORT || 3000)
     app.use(express.static(path.join(__dirname, '')))
+
+    // SOME SECURITY STUFF
+    // ----------------------------
+    // more info: https://speakerdeck.com/ckarande/top-overlooked-security-threats-to-node-dot-js-web-applications
+    // ----
+    // remove some info so we don't divulge to potential
+    // attackers what platform runs the website
+    app.disable('x-powered-by')
+    // change the generic session cookie name
+    app.use(session({ secret: 'some secret', key: 'sessionId', cookie: {httpOnly: true, secure: true} }))
+    // enable overriding
+    app.use(override("X-HTTP-Method-Override"))
+    // enable CSRF protection
+    app.use(csrf())
+    app.use((req, res, next) => {
+        res.locals.csrftoken = req.csrfToken() // send the token to the browser app
+        next()
+    })
+    // ---------------------------
 
     http.createServer(app).listen(app.get('port'), function() {
         console.log('Express server listening on port ' + app.get('port'))

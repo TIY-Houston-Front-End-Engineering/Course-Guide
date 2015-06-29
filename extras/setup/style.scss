@@ -17,38 +17,46 @@
  */
 
 .grid {
-    display: block;
-    font-size: 0;
-    text-align: justify;
-    position: relative;
-    & > * {
-        font-size: medium;
-        text-align: left;
-        display: inline-block;
-        width: 100%;
-        vertical-align: top;
-    }
-    &:after {
-        display: inline-block;
-        width: 100%;
-        content: "";
-        font-size: medium;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    > * {
+        flex: 1;
+        flex-basis: 100%;
     }
 }
 
-@define-mixin gridify $col, $width, $gutter: 2 {
+@define-mixin grid_r $col, $width {
     @media only screen and (min-width: $(width)px) {
         .grid-$(col)-$(width) {
             & > * {
-                width: calc((100 / $col) - $gutter)%;
+                flex-basis: calc(100 / $col)%;
             }
             @mixin-content;
         }
     }
 }
 
-@mixin gridify 2, 400 {}
-@mixin gridify 4, 600 {}
+@define-mixin grid $col {
+    .grid-$(col) {
+        & > * {
+            flex-basis: calc(100 / $col)%;
+        }
+        @mixin-content;
+    }
+}
+
+@mixin grid 2 {}
+@mixin grid 4 {}
+@mixin grid 6 {}
+
+@mixin grid_r 2, 400 {}
+@mixin grid_r 2, 800 {}
+
+@mixin grid_r 4, 400 {}
+@mixin grid_r 4, 800 {}
 
 /**
  * PACE (automatic pre-loader thingy)
