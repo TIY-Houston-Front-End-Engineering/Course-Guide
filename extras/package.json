@@ -11,7 +11,7 @@
         "server": "nodemon --watch . --ext js,jsx heroku-server.js & npm run watch",
         "start": "npm run n heroku-server.js",
         "s": "npm run start & npm run watch",
-        "n": "clear && node  --use_strict --harmony --es_staging  --",
+        "n": "node  --use_strict --harmony --es_staging ",
         "preinstall": "npm install --ignore-scripts",
         "postinstall": "npm run resources && npm run msg;",
         "msg": "# ---------------------------------\n# \n# \n# Do either 1 or 2, not both:\n# \n# 1. If you have your global tools installed: _npm run linkup_.\n# 2. If you don't yet have your global tools installed: _npm run setup_.\n# \n# \n# ---------------------------------\n#\n#\n#---- finally start your server with _npm run s_ :-) \"",
