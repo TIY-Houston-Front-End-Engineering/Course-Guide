@@ -19,7 +19,8 @@ function startServer() {
     // i.e. proxify ('/my/server/google', 'http://google.com/')
     function proxify(localUrl, webUrl){
         app.get(localUrl, (req, res) => {
-            var remote = webUrl.match(/:(\w+)/ig).reduce((a, t) => {
+            var tokens = webUrl.match(/:(\w+)/ig)
+            var remote = (tokens || []).reduce((a, t) => {
                 return a.replace(new RegExp(t, 'ig'), req.params[t.substr(1)])
             }, webUrl)
             req.pipe( request(remote + querify(req.query)) ).pipe(res)
