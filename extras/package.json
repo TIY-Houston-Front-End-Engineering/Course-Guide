@@ -6,7 +6,7 @@
         "build:css": "postcss --use postcss-import --use postcss-mixins --use postcss-simple-vars --use postcss-calc --use postcss-nested --use postcss-conditionals --use postcss-for --use postcss-each --use postcss-simple-extend --use autoprefixer --use csswring -o ./dist/style.css scss/style.scss;",
         "watch:css": "chokidar-cmd -c 'npm run build:css' -t ./scss/",
         "test": "mocha ./js/test/; echo '----- tests done';",
-        "watch:js-min": "watchify ./js/app-browserify.js -t [ babelify --optional runtime ] -t uglifyify -o ./dist/app-browserify.js -d",
+        "watch:js-min": "watchify ./js/app-browserify.js --poll -t [ babelify --optional runtime ] -t uglifyify -o ./dist/app-browserify.js -d",
         "watch": "npm run watch:css & npm run watch:js-min;",
         "server": "nodemon --watch . --ext js,jsx heroku-server.js & npm run watch",
         "start": "npm run n heroku-server.js",
