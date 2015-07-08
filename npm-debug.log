@@ -1,0 +1,19 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'run', 's' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose node symlink /usr/local/bin/node
+5 verbose stack Error: ENOENT, open '/Users/matthiasak/Github Projects/Notes-Backbone-React-ES6:7/package.json'
+5 verbose stack     at Error (native)
+6 verbose cwd /Users/matthiasak/Github Projects/Notes-Backbone-React-ES6:7
+7 error Darwin 14.3.0
+8 error argv "node" "/usr/local/bin/npm" "run" "s"
+9 error node v0.12.4
+10 error npm  v2.10.1
+11 error path /Users/matthiasak/Github Projects/Notes-Backbone-React-ES6:7/package.json
+12 error code ENOENT
+13 error errno -2
+14 error enoent ENOENT, open '/Users/matthiasak/Github Projects/Notes-Backbone-React-ES6:7/package.json'
+14 error enoent This is most likely not a problem with npm itself
+14 error enoent and is related to npm not being able to find a file.
+15 verbose exit [ -2, true ]
