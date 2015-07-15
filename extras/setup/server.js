@@ -11,9 +11,13 @@ var express = require('express'),
 
 function startServer() {
 
-    function querify(queryParamsObject){
-        return '?'+Object.keys(queryParamsObject).map(function(val, key){ return val+'='+queryParamsObject[val] }).join('&')
+    function querify(queryParamsObject) {
+        var params = Object.keys(queryParamsObject).map(function(val, key) {
+            return val + '=' + queryParamsObject[val]
+        }).join('&')
+        return params.length === 0 ? '' : '?' + params
     }
+
 
     // adds a new rule to proxy a localUrl -> webUrl
     // i.e. proxify ('/my/server/google', 'http://google.com/')
