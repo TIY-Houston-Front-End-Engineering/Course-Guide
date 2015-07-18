@@ -10,6 +10,10 @@
 *:before,
 *:after {
     box-sizing: border-box;
+    transition-delay: 0s;
+    transition-duration: 0.25s;
+    transition-property: opacity, transform, color, background-color, border-color, z-index, background-image;
+    transition-timing-function: ease;
 }
 
 /**
