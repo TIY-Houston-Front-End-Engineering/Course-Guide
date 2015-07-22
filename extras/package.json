@@ -25,7 +25,7 @@
         "init-git": "[ ! -e '.git' ] && git init; echo 'initted';",
         "prereqs": "npm run bower; URL=https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Backbone-React-ES6/master/extras/setup/; curl $URL/main.js --retry 5 > ./js/test/main.js; curl $URL/index.html --retry 5 > ./index.html; curl $URL/style.scss --retry 5 > ./scss/style.scss; curl $URL/server.js --retry 5 > ./server.js; curl $URL/heroku-server.js --retry 5 > ./heroku-server.js; curl $URL/app-browserify.js --retry 5 > ./js/app-browserify.js;",
         "bower": "bower install normalize-css pace typeplate-starter-kit --save;",
-        "ignores": "echo 'node_modules' > .gitignore;"
+        "ignores": "echo 'logs\n*.log\npids\n*.pid\n*.seed\nlib-cov\ncoverage\n.grunt\n.lock-wscript\nbuild/Release\nnode_modules\n' > .gitignore;"
     },
     "dependencies": {
         "es5-shim": "^4.1.4",
