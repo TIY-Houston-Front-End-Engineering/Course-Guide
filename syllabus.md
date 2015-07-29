@@ -1,6 +1,4 @@
-### TIY Houston Front End Engineering Notes and Resources
-
-Our class notes and structure can be found on Trello at https://trello.com/b/8TrqYiI4.
+### TIY Houston Front End Engineering Syllabus
 
 **Instructor Contact Info**
 
