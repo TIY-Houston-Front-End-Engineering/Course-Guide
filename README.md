@@ -4,10 +4,9 @@ Our class notes and structure can be found on Trello at https://trello.com/b/8Tr
 
 **Instructor Contact Info**
 
-- Matthew Keas
-- [matt@theironyard.com](mailto:matt@theironyard.com)
-- twitter: [@matthiasak](http://twitter.com/matthiasak)
-- github: [matthiasak](http://github.com/matthiasak)
+- Justin Richards
+- [justin.richards@theironyard.com](mailto:justin.richards@theironyard.com)
+- github: [magentanova](http://github.com/magentnova)
 
 **Campus Director Contact Info**
 
@@ -27,15 +26,15 @@ A teacher or TA will be available Monday-Friday from 9 AM to 5 PM at minimum. Du
 
 **Holidays**
 
-> Any holidays wil be announced with ample time.
+Any holidays wil be announced with ample time.
 
 **Materials**
 
-All students must bring their own MacBook laptop to class. I recommend the 13" MacBook Air or Pro. The only upgrade (if any) you should purchase is 8GB of RAM. I have had one for several years, I use it almost too often, and it has never failed on me. :-)
+All students must bring their own MacBook laptop to class. We recommend the 13" MacBook Air or Pro. The only upgrade (if any) you should purchase is 8GB of RAM.
 
 Your MacBook must be running [OS X Yosemite](https://itunes.apple.com/us/app/os-x-yosemite/id915041082?mt=12), which is a free upgrade from the App Store. [Download and install it](https://itunes.apple.com/us/app/os-x-yosemite/id915041082?mt=12) if you haven't yet.
 
-> Accounts to sign up for:
+Accounts to sign up for:
 
 If you don't have an account with any of these, sign up for them now:
 
@@ -44,9 +43,9 @@ If you don't have an account with any of these, sign up for them now:
 3. http://medium.com
 4. http://trello.com (sign-in with your Google account for easier access)
 
-There is no commercial software required for the class. We will install a number of tools to be used, such as a code editor and chat program.
+There is no commercial software required for the class. We will install a number of tools to be used, such as a code editor and a chat program, but they will all be free and/or open-source. 
 
-A custom [install script](./extras/ultimate-install-script.sh) will be provided and run the first day of class.
+A custom [install script](./extras/ultimate-install-script.sh) will be provided and run the first day of class. This script will install the necessary tools onto your Mac and also modify some of the settings to optimize the machine for programming, battery life, and other improved features.
 
 **Prework**
 
@@ -116,7 +115,7 @@ Sounds boring, but these are important:
 
 - Honor - You are expected to do your own work. If you don't, why are you here? You should use all resources available to you, including open-source code, but copy and pasting open-source code is prohibited: you should use it only for inspiration or as a library in a bigger project. Copying homework is taken very seriously and can result in forfeiting career support.
 
-- Conduct - I run a class based on human decency and respect - I want everyone to be welcome. Generally spoken, if something can be taken the wrong way, be careful how you say it! Got an issue with someone? **If you ever have any issues, just reach out to me or any of The Iron Yard employees. I promise we will represent everyone fairly and equally, and we generally care for the well-being of our students.**
+- Conduct - I run a class based on human decency and respect - I want everyone to be welcome. Generally speaking, if something can be taken the wrong way, be careful how you say it! Have an issue with someone? **If you ever have any issues, just reach out to me or any of The Iron Yard employees. I promise we will represent everyone fairly and equally, and we generally care for the well-being of our students.**
 
 **Code School Manifesto**
 
