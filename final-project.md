@@ -61,9 +61,9 @@ Peer code reviews are also extremely helpful.
     - Each morning, there is a standup which involves
         + A brief overview of the project and its status
         + Each team member will discuss:        
-            * I did yesterday
-            * I'm doing today
-            * and any blockers / hurdles I'm facing
+            * what was done yesterday
+            * what was done today
+            * any blockers / hurdles 
 - After Sprints:
     + Code reviews
     + Beer / Coffee
@@ -103,8 +103,8 @@ Peer code reviews are also extremely helpful.
 
 - What happens if I don't finish my project?
 
-    You don't present at Demo Day; and you'll have to complete it after class ends.
+    You don't present at Demo Day, and you'll have to complete it after class ends.
 
 - If I don't finish, will I receive career support?
 
-    Not until you finish the project (you get to do that after class) and show you worked hard. The real hustle begins after class, when you start the job hunt. I'll teach you to fish, but I won't fish for you. :-)
+    Not until you finish the project (you get to do that after class) and show you worked hard. The real hustle begins after class, when you start the job hunt. We'll teach you to fish, but we won't fish for you. 
