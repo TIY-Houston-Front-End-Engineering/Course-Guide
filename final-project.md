@@ -44,7 +44,7 @@ Peer code reviews are also extremely helpful.
 
 ## Start Small, Grow with Agility
 
-![](./extras/mvp/mvp-howto.jpg)
+![](./mvp-howto.jpg)
 
 > see https://pickcrew.com/how-to-build-an-online-business/balance-design-and-launching-early/ for more on this.
 
@@ -99,7 +99,7 @@ Peer code reviews are also extremely helpful.
         - During final projects, do only two 1-hr job searches each week. That means, pick two evenings (Tues, Thurs), schedule them on your calendar (to get alerts so you don't forget), and don't do anything more.
         - After final projects, you will want to apply to 3 jobs each day (average: 15 a week).
 
-    **I (Matt) already have some cool job sites and search engines for you, [collected here (link)](./extras/job-resources.md). You're welcome :-)**
+    **We already have some cool job sites and search engines for you, [collected here (link)](./job-resources/job-resources.md). You're welcome :-)**
 
 - What happens if I don't finish my project?
 
