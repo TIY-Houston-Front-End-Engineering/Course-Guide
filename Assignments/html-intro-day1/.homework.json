@@ -1,0 +1,14 @@
+{
+    "name": "html-css-intro",
+    "version": "0.0.1",
+    "title": "HTML and CSS Introduction",
+    "description": "HTML and CSS Introduction",
+    "difficultyModes": [
+        "Normal",
+        "Hard"
+    ],
+    "keywords": [
+        "CSS",
+        "HTML"
+    ]
+}

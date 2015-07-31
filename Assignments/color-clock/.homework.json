@@ -1,0 +1,12 @@
+{
+    "name": "color-clock",
+    "version": "0.0.1",
+    "title": "color-clock",
+    "description": "color-clock",
+    "difficultyModes": [
+        "Hard"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}

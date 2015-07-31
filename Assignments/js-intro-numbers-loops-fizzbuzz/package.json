@@ -1,0 +1,11 @@
+{
+  "name": "js-intro-numbers-loops-fizzbuzz",
+  "version": "1.0.0",
+  "description": "## Objectives",
+  "main": "fizzbuzz.js",
+  "scripts": {
+    "test": "node fizzbuzz.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

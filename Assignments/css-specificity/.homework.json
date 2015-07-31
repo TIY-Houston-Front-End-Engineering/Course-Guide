@@ -1,0 +1,14 @@
+{
+    "name": "css-specificity",
+    "version": "0.0.1",
+    "title": "css-specificity",
+    "description": "Answer the following questions about CSS specificity.",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "CSS",
+        "JavaScript",
+        "specificity"
+    ]
+}

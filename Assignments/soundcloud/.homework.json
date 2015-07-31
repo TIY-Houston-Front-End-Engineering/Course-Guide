@@ -1,0 +1,15 @@
+{
+    "name": "react-soundcloud",
+    "version": "0.0.1",
+    "title": "react-soundcloud",
+    "description": "react-soundcloud",
+    "difficultyModes": [
+        "Easy",
+        "Normal",
+        "Hard",
+        "Nightmare"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}

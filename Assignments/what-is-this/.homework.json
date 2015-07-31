@@ -1,0 +1,13 @@
+{
+    "name": "what-is-this",
+    "version": "0.0.1",
+    "title": "What is this?",
+    "description": "An exploration of \"this\" in Javascript.",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "JavaScript",
+        "this"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "js-intro-dom-calculator",
+    "version": "0.0.1",
+    "title": "js-intro-dom-calculator",
+    "description": "js-intro-dom-calculator",
+    "difficultyModes": [
+        "Normal",
+        "Hard"
+    ],
+    "keywords": [
+        "Calculator",
+        "DOM",
+        "Functions",
+        "JavaScript"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "html-iron-news-layout",
+    "version": "0.0.1",
+    "title": "HTML/CSS/Git Intro - Iron News Layout",
+    "description": "One of the basic, foundational skills in being a professional web developer is the translation of a designer's mockup image into a webpage with HTML and CSS. One of the basic, foundational news portals for professional web developers is Hacker News, which is kind of like a Reddit for the startup/design/development community with a very... *minimalist* design ethic.",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "HTML",
+        "CSS",
+        "PSD"
+    ]
+}

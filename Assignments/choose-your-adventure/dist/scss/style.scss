@@ -1,0 +1,141 @@
+@import '../bower_components/normalize-scss/_normalize.scss';
+
+$background: #3B3F45;
+$smallBreakpoint: 600px;
+$mediumBreakpoint: 900px;
+
+body {
+	font-family: Raleway, Arial, sans-serif;
+	background: $background;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 1.5em;
+	box-sizing: border-box;
+	background: $background;
+}
+
+h1, h2 {
+	color: #fff;
+	margin: 0;
+}
+
+h1 {
+	font-size: 2.5em;
+	padding: 1.625rem 0;
+}
+
+h2 {
+	font-style: italic;
+	color: #ccc;
+	padding: 1.25rem 0;
+}
+
+#continue {
+	display: block;
+	float: right;
+	background: #232529;
+	color: #fff;
+	padding: 0.6em 1.5em;
+	border: 3px solid #232529;
+	border-radius: 40px;
+	font-weight: 700;
+	font-size: 1.25em;
+	cursor: pointer;
+	outline: none;
+
+	&:hover {
+		background: #52658C;
+	}
+}
+
+main {
+	max-width: 60em;
+	padding: 4em;
+	margin: 0 auto;
+}
+
+#active {
+	margin: 0 auto;
+	margin-top: 6.3125em;
+	height: 100%;
+	position: relative;
+	min-height: 300px;
+
+}
+
+.interaction {
+	margin-bottom: 2em;
+	overflow: hidden;
+	position: absolute;
+	top: 300px;
+	transition: transform 0.8s, top 0.8s;
+	width: 100%;
+
+	&.old {
+		top: 0;
+		transform: translateY(-500%);
+	}
+
+	&.new {
+		top: 0;
+	}
+
+	button {
+		display: block;
+		background: #ccc;
+		padding: 2em;
+		border: 0;
+		margin-top: 1em;
+		box-sizing: border-box;
+		width: 100%;
+		font-weight: bold;
+		color: rgba(0,0,0,0.4);
+		outline: none;
+		border-radius: 2em;
+		transition: background-color 0.3s;
+		cursor: pointer;
+
+		&:hover {
+			background: #fffed8;
+		}
+
+		@media screen and (min-width: $smallBreakpoint) {
+			float: left;
+			width: 48%;
+			margin-right: 4%;
+
+			&:nth-child(2n+1) {
+				margin-right: 0;
+			}
+		}
+
+		@media screen and (min-width: $mediumBreakpoint) {
+			float: left;
+			width: 32%;
+			margin-right: 2%;
+
+			&:nth-child(2n+1) {
+				margin-right: 2%;
+			}
+
+			&:nth-child(3n+1) {
+				margin-right: 0%;
+			}
+		}
+	}
+}
+
+input[type="text"] {
+	background: transparent;
+	outline: none;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	display: block;
+	width: 100%;
+	font-size: 3.75em;
+	color: #fff;
+}

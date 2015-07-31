@@ -1,0 +1,13 @@
+{
+    "name": "weather-app",
+    "version": "0.0.1",
+    "title": "weather-app",
+    "description": "weather-app",
+    "difficultyModes": [
+        "Normal",
+        "Nightmare"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}

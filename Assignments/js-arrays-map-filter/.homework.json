@@ -1,0 +1,16 @@
+{
+    "name": "js-arrays-map-filter",
+    "version": "0.0.1",
+    "title": "js-arrays-map-filter",
+    "description": "An excercise that provides an array of items along with a set of questions about the data.",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "JavaScript",
+        "array",
+        "foreach",
+        "map",
+        "reduce"
+    ]
+}

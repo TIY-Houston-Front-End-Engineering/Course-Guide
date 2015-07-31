@@ -1,0 +1,12 @@
+{
+    "name": "regex-coffee",
+    "version": "0.0.1",
+    "title": "regex-coffee",
+    "description": "regex-coffee",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}

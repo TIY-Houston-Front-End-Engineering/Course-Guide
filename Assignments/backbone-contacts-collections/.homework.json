@@ -1,0 +1,15 @@
+{
+    "name": "backbone-contacts-collections",
+    "version": "0.0.1",
+    "title": "backbone-contacts-collections",
+    "description": "backbone-contacts-collections",
+    "difficultyModes": [
+        "Easy",
+        "Normal",
+        "Hard",
+        "Nightmare"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "html-intro-1",
+    "version": "0.0.1",
+    "title": "html-intro-1",
+    "description": "html-intro-1",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "JavaScript",
+        "css",
+        "html",
+        "layout"
+    ]
+}

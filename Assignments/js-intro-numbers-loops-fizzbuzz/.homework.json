@@ -1,0 +1,12 @@
+{
+    "name": "js-intro-numbers-loops-fizzbuzz",
+    "version": "0.0.1",
+    "title": "js-intro-numbers-loops-fizzbuzz",
+    "description": "js-intro-numbers-loops-fizzbuzz",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}

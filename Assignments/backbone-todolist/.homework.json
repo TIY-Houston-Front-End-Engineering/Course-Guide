@@ -1,0 +1,15 @@
+{
+    "name": "backbone-todolist",
+    "version": "0.0.1",
+    "title": "backbone-todolist",
+    "description": "backbone-todolist",
+    "difficultyModes": [
+        "Easy",
+        "Normal",
+        "Hard",
+        "Nightmare"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}

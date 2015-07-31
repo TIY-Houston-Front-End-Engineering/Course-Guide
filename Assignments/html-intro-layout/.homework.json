@@ -1,0 +1,15 @@
+{
+    "name": "html-intro-layout",
+    "version": "0.0.1",
+    "title": "Intro to HTML/CSS Layout",
+    "description": "CSS Layout is one of the most important things to learn early on. This exercise helps you learn that",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "JavaScript",
+        "css",
+        "html",
+        "layout"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "rot13",
+    "version": "0.0.1",
+    "title": "rot13",
+    "description": "rot13",
+    "difficultyModes": [
+        "Normal",
+        "Hard"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}

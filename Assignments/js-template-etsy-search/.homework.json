@@ -1,0 +1,16 @@
+{
+    "name": "js-template-etsy-search",
+    "version": "0.0.1",
+    "title": "js-template-etsy-search",
+    "description": "This exercise utilizes Underscore/Lodash style templates to re-create the Etsy search results page.",
+    "difficultyModes": [
+        "Normal",
+        "Hard"
+    ],
+    "keywords": [
+        "JavaScript",
+        "jquery",
+        "lodash",
+        "underscore"
+    ]
+}

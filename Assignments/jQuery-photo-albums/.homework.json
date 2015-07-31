@@ -1,0 +1,10 @@
+{
+    "name": "photo-album",
+    "version": "0.0.1",
+    "title": "photo-album",
+    "description": "Create a page with a list of 5 photo albums that, when user clicks, will show thumbnail views of at least 3 photos.",
+    "keywords": [
+        "jquery",
+        "dom-traversal"
+    ]
+}
