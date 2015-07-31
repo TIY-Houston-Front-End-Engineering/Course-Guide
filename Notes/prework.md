@@ -1,14 +1,6 @@
 # Prework
 
-Here is some prework to prepare for The Iron Yard's Front End Course!
-
-Prework is material to help you get on the same page as others. Do the best you can, and let Matt know how it's going! :-)
-
-What is prework?
-
-- a series of base information designed to bring you up to speed as much as possible before the class. We have some online coursework, tools, and advanced materials for those of you who want to go further.
-- starting learning before the class is like training for a marathon. You don't show up the day of the race and start, you need to train beforehand. In our classes, your brain is the muscle that needs to train. This prework is training for your brain.
-- Prework only covers the basics of a language; What we teach goes much deeper than tutorials can cover.
+Prework is material that ensures you have the basic foundation required for the course. Starting learning before the class is like training for a marathon. You don't show up the day of the race and start, you need to train beforehand. In our classes, your brain is the muscle that needs to train. This prework is training for your brain.
 
 **Part 0**
 
