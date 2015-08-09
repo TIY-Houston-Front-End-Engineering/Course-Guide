@@ -1,9 +1,18 @@
-#!/bin/sh
+#!/bin/bash
+set -e
 
-# Check for Homebrew,
-# Install if we don't have it
-if test ! $(which brew); then
-  echo "Installing homebrew..."
+echo 'Boostrapping your computer...'
+
+# Install xcode command line tools
+if [[ ! -x `xcode-select -p 2>/dev/null` ]]; then
+  xcode-select --install
+  echo 'Press any key when the installation has completed.'
+  read -n 1
+fi
+
+# Install homebrew
+if [[ ! -x /usr/local/bin/brew ]]; then
+  echo 'Installing homebrew...'
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
@@ -15,12 +24,6 @@ fi
 ssh-keygen
 
 #############
-
-xcodebuild -license
-
-# Get XCode commandline tools without the giant xcode download???
-xcode-select --install
-sudo xcode-select -switch /Library/Developer/CommandLineTools
 
 # setup casks/taps
 brew tap homebrew/dupes
