@@ -1,0 +1,19 @@
+{
+    "name": "html-intro-3-tshirts",
+    "version": "0.0.1",
+    "title": "html-intro-3-tshirts",
+    "description": "html-intro-3-tshirts",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "JavaScript",
+        "css",
+        "hover",
+        "html",
+        "mediaqueries",
+        "positioning",
+        "responsive",
+        "transitions"
+    ]
+}

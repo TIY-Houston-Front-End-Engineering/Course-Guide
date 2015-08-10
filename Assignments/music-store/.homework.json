@@ -1,0 +1,13 @@
+{
+    "name": "music-store",
+    "version": "0.0.1",
+    "title": "music-store",
+    "description": "music-store",
+    "difficultyModes": [
+        "Normal",
+        "Nightmare"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}

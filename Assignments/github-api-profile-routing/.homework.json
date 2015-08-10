@@ -1,0 +1,12 @@
+{
+    "name": "github-api-profile-routing",
+    "version": "0.0.1",
+    "title": "github-api-profile-routing",
+    "description": "github-api-profile-routing",
+    "difficultyModes": [
+        "Hard"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}

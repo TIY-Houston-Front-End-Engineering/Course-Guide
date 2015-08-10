@@ -1,0 +1,12 @@
+{
+    "name": "photoswipe",
+    "version": "0.0.1",
+    "title": "photoswipe",
+    "description": "photoswipe",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}

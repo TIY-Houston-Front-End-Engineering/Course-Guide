@@ -1,0 +1,11 @@
+{
+  "name": "js-intro-fns-loops-rovarspraket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rovarspraket.js",
+  "scripts": {
+    "test": "node rovarspraket.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "github-api-profile",
+    "version": "0.0.1",
+    "title": "github-api-profile",
+    "description": "github-api-profile",
+    "difficultyModes": [
+        "Normal",
+        "Hard",
+        "Nightmare"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}

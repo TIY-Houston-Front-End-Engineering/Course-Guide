@@ -1,0 +1,16 @@
+{
+    "name": "js-guessing-game",
+    "version": "0.0.1",
+    "title": "JavaScript Guessing Game",
+    "description": "Generate a random integer between 1 and 100. Prompt the user to guess the number.",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "JavaScript",
+        "loops",
+        "types",
+        "variables"
+    ],
+    "supplementalFiles": []
+}

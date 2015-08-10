@@ -1,0 +1,12 @@
+{
+    "name": "tree-practice",
+    "version": "0.0.1",
+    "title": "Tree Practice",
+    "description": "Answer some questions about tree data structures to practice terminology and solidify your understanding of how they work.",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}

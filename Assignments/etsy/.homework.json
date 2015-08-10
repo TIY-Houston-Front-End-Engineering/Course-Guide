@@ -1,0 +1,14 @@
+{
+    "name": "etsy",
+    "version": "0.0.1",
+    "title": "etsy",
+    "description": "etsy",
+    "difficultyModes": [
+        "Normal",
+        "Hard",
+        "Nightmare"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}

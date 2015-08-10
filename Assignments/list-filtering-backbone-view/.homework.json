@@ -1,0 +1,10 @@
+{
+  "name": "list-filtering-backbone-view",
+  "version": "0.0.1",
+  "title": "Create a list-filtering Backbone view",
+  "description": "Write a page with a list of items (books, bands, whatever) and a search input and a Backbone View that filters the list as you type.",
+  "keywords": [
+    "JavaScript",
+    "Backbone"
+  ]
+}

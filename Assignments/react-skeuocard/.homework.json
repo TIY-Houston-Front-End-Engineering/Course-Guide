@@ -1,0 +1,13 @@
+{
+    "name": "react-skeuocard",
+    "version": "0.0.1",
+    "title": "react-skeuocard",
+    "description": "react-skeuocard",
+    "difficultyModes": [
+        "Normal",
+        "Hard"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}
