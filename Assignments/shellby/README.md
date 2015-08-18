@@ -15,8 +15,9 @@ Write a shell script* that will:
 * delete deleteme.txt
 
 I should be able to run shellby.sh with the command "sh shellby.sh" and see the following directory structure as a result:
-
-       README
+         README
+shellby [
+          __ README
          |
 shellby -|            __fizz.txt
          |__ texts - |
