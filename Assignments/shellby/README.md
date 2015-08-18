@@ -16,7 +16,7 @@ Write a shell script* that will:
 
 I should be able to run shellby.sh with the command "sh shellby.sh" and see the following directory structure as a result:
 
-          __ README
+       README
          |
 shellby -|            __fizz.txt
          |__ texts - |
