@@ -1,4 +1,6 @@
-The purpose of this assignment is to build your comfort and versatility with the command line. The Mac operating system is often called "UNIX-like." Feel free to delve into the history of UNIX, Linux, and Mac and get the full story on this, but suffice it to say that you are learning how to work closely with a very elegant operating system --- that is, you are becoming more like a mechanic tooling around with an engine and less like a driver pressing the gas pedal. **Nearly every job description for programmers is going to ask for someone with Linux skills/experience. This is what that means!***
+The purpose of this assignment is to build your comfort and versatility with the command line. The Mac operating system is often called "UNIX-like." Feel free to delve into the history of UNIX, Linux, and Mac and get the full story on this, but suffice it to say that you are learning how to work closely with a very elegant operating system --- that is, you are becoming more like a mechanic tooling around with an engine and less like a driver pressing the gas pedal. 
+
+**Nearly every job description for programmers is going to ask for someone with Linux skills/experience. This is what that means!***
 
 Write a shell script* that will:
 
