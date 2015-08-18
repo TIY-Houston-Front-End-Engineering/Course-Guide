@@ -17,4 +17,4 @@
 
 ## Assignments
 
-Pretty self-explanatory
+There are a lot of assignments in here that we will not use during the course. They are used in other front-end courses in the Iron Yard's global empire. You can refer to the Trello board for the names of and links for the projects that I've actually assigned, then read the page in this Assignments directory. The assignment page should have all the information you'll need to complete your task, but feel free to ask me or the TA for clarification or elaboration.
