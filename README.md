@@ -1,7 +1,6 @@
 **This Course Guide Contains the Following:**
 
-# Resources
-## Documents that you will need to prepare for and succeed in the course
+## Resources
 
 *prework.md: A description of what you're expected to have done before the class starts. 
 
@@ -16,5 +15,6 @@
 * **job-resources**: A directory containing some tips on finding a job after the course.
 * **system-resources**: A directory containing files, mostly code, that will be useful in setting up the build for most of our apps.
 
-# Assignments
-## Pretty self-explanatory
+## Assignments
+
+Pretty self-explanatory
