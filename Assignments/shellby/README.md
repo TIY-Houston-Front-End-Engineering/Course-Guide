@@ -18,7 +18,7 @@ Write a shell script* that will:
 
 I should be able to run shellby.sh with the command "sh shellby.sh" and see a new directory structure created. The folder "shellby" should contain the file "README" and the subfolder "texts." The subfolder texts should contain the files "fizz.txt" and "buzz.txt". I should also be able to open the README and see the word "fizzbuzz." 
 
-For your convenience, I've included a sample shell script that does something similar. Feel free to copy and paste it, try it out, edit it, play around, etc. 
+For your convenience, I've included a sample shell script that does something similar. Feel free to copy and paste it, try it out, edit it, play around, etc. Run it with the command "sh finnegan.sh" and see what it does!
 
 While working on this and any other assignments, if you don't know something, **look it up!** There is a very robust online community that provides hints, answers, tutorials, cheatsheets, commiserations, and all other forms of assistance with this stuff. 
 
