@@ -28,8 +28,6 @@ Add functionality to your shell script so that it will also:
 * create, in the "news" subfolder, a file called "times.txt" that contains all the HTML text currently on the New York Times home page. This can be done in one relatively simple terminal command. 
 * find all the lines from times.txt that contain the word "America" and write them into a file called "national.txt." This can also be done with one concise command. 
 
-**End hard mode**
-
 While working on this and any other assignments, if you don't know something, **look it up!** There is a very robust online community that provides hints, answers, tutorials, cheatsheets, commiserations, and all other forms of assistance with this stuff. 
 
 *A shell script is just a sequence of Linux commands listed in a single file. That file can be executed by the terminal by running a command like "sh [the name of your script]." Note that you might hear me use terminology like Terminal, bash, shell, Linux, and UNIX almost interchangeably with reference to these sorts of commands. Feel free to research or ask me about the fine distinctions, but they are all in a similar milieu. 
