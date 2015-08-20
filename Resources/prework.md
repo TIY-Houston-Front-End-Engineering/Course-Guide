@@ -51,7 +51,7 @@ Start these and finish (as much as humanly possible):
 
     - https://www.codeschool.com/courses/git-real
 
-Spend ~ 1-2 hours each day on the courses to round out any foundational knowledge necessary to start Matt's class.
+Spend ~ 1-2 hours each day on the courses to round out any foundational knowledge necessary to start the class.
 
 **Part 3**
 
