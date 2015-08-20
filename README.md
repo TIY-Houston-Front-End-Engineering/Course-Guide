@@ -12,7 +12,7 @@
 
 * APIs.md: A guide to knowing and using Application Programming Interfaces.
 
-* **job-resources**: A directory containing some tips on finding a job after the course.
+* **job-resources**: A directory containing some assistance in finding a job after the course.
 * **system-resources**: A directory containing files, mostly code, that will be useful in setting up the build for most of our apps.
 
 ## Assignments
