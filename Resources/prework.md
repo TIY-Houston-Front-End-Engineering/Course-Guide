@@ -12,7 +12,7 @@ If you're new to a Mac (or old, even), check out https://www.apple.com/support/m
 
 Read [Fixed vs. Growth: The Two Basic Mindsets That Shape Our Lives](http://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
 
-Compose an email to Justin answering the following questions:
+Compose an email to your instructor answering the following questions:
 
 - Which type of mindset (growth or fixed) do you think you are most strongly associated with? Why?
 - What difficulties do you predict that you will encounter during our course? How have you reacted to similar situations in the past? How do you plan on reacting to these situations during the class?
