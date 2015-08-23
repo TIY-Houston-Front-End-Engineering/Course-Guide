@@ -110,9 +110,9 @@ Sounds boring, but these are important:
 
 - Late or incomplete homework - Your homework is due by 9 AM on the assigned day. After that, it is late. If you miss homework assignments, come talk to me, because I know problems and emergencies can happen. However, you will be required to make up for late/incomplete assignments, so don't fall behind! I would rather see a solid attempt on time than a complete assignment late. Solid attempts are not considered late!
 
-- Honor - You are expected to do your own work. If you don't, why are you here? You should use all resources available to you, including open-source code, but copy and pasting open-source code is prohibited: you should use it only for inspiration or as a library in a bigger project. Copying homework is taken very seriously and can result in forfeiting career support.
+- Honor - You should use all resources available to you, including open-source code, but copy and pasting open-source code will not only render your homework unacceptable but will also prevent you from learning the material (and often from writing code that works). Copying homework can result in forfeiting career support.
 
-- Conduct - I run a class based on human decency and respect - I want everyone to be welcome. Generally speaking, if something can be taken the wrong way, be careful how you say it! Have an issue with someone? **If you ever have any issues, just reach out to me or any of The Iron Yard employees. I promise we will represent everyone fairly and equally, and we generally care for the well-being of our students.**
+- Conduct - I run a class based on human decency and respect - I want everyone to be welcome. Generally speaking, if something can be taken the wrong way, be careful how you say it! Have an issue with someone? **If you ever have any issues, just reach out to me or any of The Iron Yard employees. I promise we will represent everyone fairly and equally, as we genuinely care for the well-being of our students.**
 
 **Code School Manifesto**
 
