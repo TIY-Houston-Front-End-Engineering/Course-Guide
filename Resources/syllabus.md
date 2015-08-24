@@ -15,6 +15,7 @@
 
 - Lecture is from `9.30 AM to 12:30 or 1 PM Monday-Thursday`, with breaks during that time. Depending on the topic, we may end earlier or later. :-)
 - Lab time is from `1 PM to 5 PM Monday-Thursday` and `9 AM to 5 PM` on Friday!
+- Reviews with the TA will take place Tuesdays and Thursdays from 4 p.m. - ? (2+ hrs)
 - #IronPints Friday at 3.30pm at our local bars.
 
 **Office hours and one-on-one instruction**
