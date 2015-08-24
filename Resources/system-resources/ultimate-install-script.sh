@@ -354,3 +354,4 @@ defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 git config --global core.editor "subl -n -w"
 # "Removing Mission Control as it interferes with Sublime Text keyboard shortcut for selecting multiple lines"
 # defaults write com.apple.dock mcx-expose-disabled -bool TRUE
+echo "done"
