@@ -17,10 +17,10 @@ After completing this assignment, you should be able to:
 # then git init
 # then 
 
-curl https://raw.githubusercontent.com/matthiasak/js-assignments/master/js-intro-numbers-loops-fizzbuzz/fizzbuzz.js > fizzbuzz.js
+curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Course-Guide/master/Assignments/js-intro-numbers-loops-fizzbuzz/fizzbuzz.js > fizzbuzz.js
 ```
 
-then add your own remote with `hub create fizzbuzz`. Modify `fizzbuzz.js` to make the tests/assertions pass.
+Modify `fizzbuzz.js` to make the tests/assertions pass.
 
 Test your code with `node fizzbuzz.js`
 
