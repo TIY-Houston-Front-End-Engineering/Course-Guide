@@ -15,7 +15,7 @@
 
 - Lecture is from `9.30 AM to 12:30 or 1 PM Monday-Thursday`, with breaks during that time. Depending on the topic, we may end earlier or later. :-)
 - Lab time is from `1 PM to 5 PM Monday-Thursday` and `9 AM to 5 PM` on Friday!
-- Group review sessions will be held Tuesday and Friday afternoons, from 2pm-3pm
+- Reviews with the TA will take place Tuesdays and Thursdays from 4 p.m. - ? (2+ hrs)
 - #IronPints Friday at 3.30pm at our local bars.
 
 **Office hours and one-on-one instruction**
@@ -109,11 +109,11 @@ Sounds boring, but these are important:
 
 - Absences and timeliness - You can miss up to 4 lectures; after that, your enrollment in career support is forfeit. I don't recommend missing any, as we will be moving very fast! This is to help with expectations: I show up, you show up, we all show up --- and kick ass! :-) Also, please show up on time. We count 2 lates as an absence. All I ask for is general respect of the crew and class so that we can learn without constant hiccups and interruptions!
 
-- Late or incomplete homework - Your homework is due by 9 AM on the assigned day. After that, it is late. If you miss homework assignments, come talk to me, because I know problems and emergencies can happen. However, you will be required to make up for late/incomplete assignments, so don't fall behind! I would rather see a solid attempt on time than a complete assignment late. Solid attempts are not considered late!
+- Late or incomplete homework - Your homework is due by 9 AM on the day of its deadline. After that, it is late. If you miss homework assignments, come talk to me, because I know problems and emergencies can happen. However, you will be required to make up for late/incomplete assignments, so don't fall behind! I would rather see a solid attempt on time than a complete assignment late. Solid attempts are not considered late!
 
-- Honor - You are expected to do your own work. If you don't, why are you here? You should use all resources available to you, including open-source code, but copy and pasting open-source code is prohibited: you should use it only for inspiration or as a library in a bigger project. Copying homework is taken very seriously and can result in forfeiting career support.
+- Honor - You should use all resources available to you, including open-source code, but copy and pasting open-source code will not only render your homework unacceptable but will also prevent you from learning the material (and often from writing code that works). Copying homework can result in forfeiting career support.
 
-- Conduct - I run a class based on human decency and respect - I want everyone to be welcome. Generally speaking, if something can be taken the wrong way, be careful how you say it! Have an issue with someone? **If you ever have any issues, just reach out to me or any of The Iron Yard employees. I promise we will represent everyone fairly and equally, and we generally care for the well-being of our students.**
+- Conduct - I run a class based on human decency and respect - I want everyone to be welcome. Generally speaking, if something can be taken the wrong way, be careful how you say it! Have an issue with someone? **If you ever have any issues, just reach out to me or any of The Iron Yard employees. I promise we will represent everyone fairly and equally, as we genuinely care for the well-being of our students.**
 
 **Code School Manifesto**
 
