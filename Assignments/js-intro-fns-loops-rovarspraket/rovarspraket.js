@@ -105,3 +105,20 @@ function findLongestWord(sentence){
 console.assert(findLongestWord("book dogs") === "book")
 console.assert(findLongestWord("don't mess with Texas") === "Texas")
 
+/**
+ * PART 6
+ *
+ * Write a function that calculates the sum of all the numbers in an array
+ */
+
+function sumOfArray(arr){
+    var sum = 0
+    // YOUR CODE HERE
+    return sum
+}
+
+console.assert(sumOfArray([1, 2]) === 3);
+console.assert(sumOfArray([]) === 0);
+console.assert(sumOfArray([1, 2, 3]) === 6);
+console.assert(sumOfArray([10, 9, 8]) === 27);
+
