@@ -13,7 +13,6 @@ console.assert(max(1,3) === 3);
 console.assert(max(0,3) === 3);
 console.assert(max(10,3) === 10);
 console.assert(max(-1,-3) === -1);
-console.assert(max("aaa",0) === 0);
 console.assert(isNaN(max("aaa","bbb")));
 
 /**
@@ -31,7 +30,6 @@ console.assert(maxOfThree(1,3,2) === 3);
 console.assert(maxOfThree(0,3,-1) === 3);
 console.assert(maxOfThree(10,3,50) === 50);
 console.assert(maxOfThree(-1,-3,-10) === -1);
-console.assert(maxOfThree("aaa",0,1) === 1);
 console.assert(isNaN(maxOfThree("aaa","bbb","ccc")));
 
 /**
@@ -104,21 +102,4 @@ function findLongestWord(sentence){
 
 console.assert(findLongestWord("book dogs") === "book")
 console.assert(findLongestWord("don't mess with Texas") === "Texas")
-
-/**
- * PART 6
- *
- * Write a function that calculates the sum of all the numbers in an array
- */
-
-function sumOfArray(arr){
-    var sum = 0
-    // YOUR CODE HERE
-    return sum
-}
-
-console.assert(sumOfArray([1, 2]) === 3);
-console.assert(sumOfArray([]) === 0);
-console.assert(sumOfArray([1, 2, 3]) === 6);
-console.assert(sumOfArray([10, 9, 8]) === 27);
 
