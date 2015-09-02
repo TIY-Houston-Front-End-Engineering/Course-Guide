@@ -58,7 +58,7 @@ function LCM(a, b){
 console.assert(LCM(10,10) === 10)
 console.assert(LCM(2,5) === 10)
 console.assert(LCM(3,6) === 6)
-console.assert(LCM(0,1) === 1)
+console.assert(LCM(0,1) === 0)
 
 /**
  * Part 4
