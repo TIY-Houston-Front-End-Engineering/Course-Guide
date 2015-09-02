@@ -17,7 +17,7 @@ After completing this assignment, you should be able to:
 # then git init
 # then 
 
-curl https://raw.githubusercontent.com/matthiasak/js-assignments/master/js-intro-fns-loops-rovarspraket/rovarspraket.js > rovarspraket.js
+curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Course-Guide/master/Assignments/js-intro-fns-loops-rovarspraket/rovarspraket.js > rovarspraket.js
 ```
 
 then add your own remote with `hub create rovarspraket`. Modify `roverspraket.js` to make the tests/assertions pass.
