@@ -6,7 +6,8 @@
  */
 
 function max(a, b){
-    // YOUR CODE HERE
+    if ( a > b ) return a
+   	return b
 }
 
 console.assert(max(1,3) === 3);
@@ -39,7 +40,7 @@ console.assert(isNaN(maxOfThree("aaa","bbb","ccc")));
  * and returns true if it is a vowel, false otherwise.
  */
 
-function isVowel(char){
+function isVowel(symbol){
     // YOUR CODE HERE
 }
 
@@ -61,7 +62,7 @@ console.assert(isVowel("E") === true);
 
  */
 
-function rovarspraket(in){
+function rovarspraket(language){
     // YOUR CODE HERE
 }
 
