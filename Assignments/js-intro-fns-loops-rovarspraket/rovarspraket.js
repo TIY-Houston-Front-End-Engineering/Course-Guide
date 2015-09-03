@@ -33,6 +33,20 @@ console.assert(maxOfThree(10,3,50) === 50);
 console.assert(maxOfThree(-1,-3,-10) === -1);
 console.assert(isNaN(maxOfThree("aaa","bbb","ccc")));
 
+
+// PART 1.5
+
+// Write a function maxOfArray() that takes an array of
+// numbers as an argument and finds the highest number.
+
+function maxOfArray(array){
+	// YOUR CODE HERE
+}
+
+console.assert(maxOfArray([2,4,3]) === 4)
+console.assert(maxOfArray([10,9,8,100,7,6]) === 100)
+console.assert(maxOfArray([1,2,'bucklemyshoe']) === NaN)
+
 /**
  * PART 2
  *
