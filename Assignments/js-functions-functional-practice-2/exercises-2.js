@@ -46,7 +46,7 @@ function find(list, predicate) {
 // tests
 // ---
 var people = [
-    {name: "Matt", teaches: "JS"},
+    {name: "Justin", teaches: "JS"},
     {name: "Jwo", teaches: "Ruby"},
     {name: "Dorton", teaches: "life"}
 ]
