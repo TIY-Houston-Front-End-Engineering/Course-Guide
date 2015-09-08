@@ -45,7 +45,7 @@ function maxOfArray(array){
 
 console.assert(maxOfArray([2,4,3]) === 4)
 console.assert(maxOfArray([10,9,8,100,7,6]) === 100)
-console.assert(maxOfArray([1,2,'bucklemyshoe']) === NaN)
+console.assert(isNan(maxOfArray([1,2,'bucklemyshoe']))
 
 /**
  * PART 2
