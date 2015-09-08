@@ -18,6 +18,7 @@ var names = [
     {name:"Matt", alma_mater:"Univ of Texas - Austin"},
     {name:"Brian", alma_mater:"Texas A&M"},
     {name:"Jesse", alma_mater:"Univ of Texas - Austin"}
+    {name:"Justin", alma_mater:"Univ of Florida"}
 ]
 
 names.sort(function(a, b){
