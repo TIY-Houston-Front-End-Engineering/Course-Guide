@@ -14,7 +14,7 @@ console.assert(sum(1, 2, 3, 4, 5) === 15)
 // of people by name
 // ----------------------------
 
-var names = [
+var people = [
     {name:"Matt", alma_mater:"Univ of Texas - Austin"},
     {name:"Brian", alma_mater:"Texas A&M"},
     {name:"Jesse", alma_mater:"Univ of Texas - Austin"}
