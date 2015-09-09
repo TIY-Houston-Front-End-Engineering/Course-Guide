@@ -27,9 +27,9 @@ people.sort(function(a, b){
 
 // tests
 // ---
-console.assert(names[0].name === "Brian")
-console.assert(names[1].name === "Jesse")
-console.assert(names[2].name === "Matt")
+console.assert(people[0].name === "Brian")
+console.assert(people[1].name === "Jesse")
+console.assert(people[2].name === "Matt")
 
 // ----------------------------
 // Using Array.map(), Array.filter(), and Array.sort() on the
