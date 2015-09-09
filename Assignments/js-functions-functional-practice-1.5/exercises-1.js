@@ -21,7 +21,7 @@ var people = [
     {name:"Justin", alma_mater:"Univ of Florida"}
 ]
 
-names.sort(function(a, b){
+people.sort(function(a, b){
     // YOUR CODE HERE
 })
 
