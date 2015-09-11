@@ -51,7 +51,7 @@ var people = [
     {name: "Dorton", teaches: "life"}
 ]
 var JS = find(people, function(n){ return n.teaches === "JS" })
-console.assert(JS.name === "Matt")
+console.assert(JS.name === "Justin")
 
 // -----------
 // Write a function where() that filters for all the values
