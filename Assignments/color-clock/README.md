@@ -34,3 +34,5 @@ Recreate this clock driven by CSS and JS:
 
 ![](./clock.gif)
 
+# Stage I: 
+
