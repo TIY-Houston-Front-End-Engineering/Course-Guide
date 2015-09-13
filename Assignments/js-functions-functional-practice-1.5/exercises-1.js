@@ -14,21 +14,22 @@ console.assert(sum(1, 2, 3, 4, 5) === 15)
 // of people by name
 // ----------------------------
 
-var names = [
+var people = [
     {name:"Matt", alma_mater:"Univ of Texas - Austin"},
     {name:"Brian", alma_mater:"Texas A&M"},
-    {name:"Jesse", alma_mater:"Univ of Texas - Austin"}
+    {name:"Jesse", alma_mater:"Univ of Texas - Austin"},
+    {name:"Justin", alma_mater:"Univ of Florida"}
 ]
 
-names.sort(function(a, b){
+people.sort(function(a, b){
     // YOUR CODE HERE
 })
 
 // tests
 // ---
-console.assert(names[0].name === "Brian")
-console.assert(names[1].name === "Jesse")
-console.assert(names[2].name === "Matt")
+console.assert(people[0].name === "Brian")
+console.assert(people[1].name === "Jesse")
+console.assert(people[2].name === "Matt")
 
 // ----------------------------
 // Using Array.map(), Array.filter(), and Array.sort() on the

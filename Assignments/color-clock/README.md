@@ -21,8 +21,7 @@ $ mkdir <projectname>
 $ cd <projectname>
 $ git init
 $ hub create <projectName>
-$ curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Backbone-React-ES6/master/extras/package.json > package.json
-$ npm install
+
 ```
 
 ### Requirements
@@ -34,4 +33,6 @@ $ npm install
 Recreate this clock driven by CSS and JS:
 
 ![](./clock.gif)
+
+# Stage I: 
 
