@@ -47,3 +47,5 @@ Bring your color clock to life:
 
 * Make the clock "tick" and change the gradient in tandem.
 * Add the horizontal line that shows the progress of each minute. 
+
+HAVE FUN!
