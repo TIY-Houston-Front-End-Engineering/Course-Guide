@@ -30,9 +30,20 @@ $ hub create <projectName>
 
 ## Normal Mode
 
-Recreate this clock driven by CSS and JS:
+### Stage I: 
+
+Just recreate this static page: 
+
+![](./static-clock.gif)
+
+* That is, format a Date() object and put it on the page using this layout.
+* Add hover functionality to show the hex color of the gradient instead of the time.
+
+### Stage II: 
+
+Bring your color clock to life: 
 
 ![](./clock.gif)
 
-# Stage I: 
-
+* Make the clock "tick" and change the gradient in tandem.
+* Add the horizontal line that shows the progress of each minute. 
