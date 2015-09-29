@@ -1,6 +1,16 @@
 #Presentations
 
-##Give a talk to your classmates on one of the given topics listed below. 
+>We Learn
+>10% of what we READ
+>20% of what we HEAR
+>30% of what we SEE
+>50% of what we SEE and HEAR
+>70% of what is DISCUSSED with OTHERS
+>80% of what is EXPERIENCED PERSONALLY
+>95% of what we TEACH TO SOMEONE ELSE
+>  ~ William Glasser
+
+Prepare a talk for your classmates based on one of the topics listed below. 
 
 ###Tips and Requirements
 
@@ -16,7 +26,5 @@
 - Make sure that the way you define your topic passes ***the grandma test***. Can you explain it to your grandma? If not, you don't really understand it. 
 
 
-###Topics[topics]
+###Topics
 
-
-#Topics
