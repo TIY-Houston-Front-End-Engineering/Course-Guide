@@ -1,9 +1,9 @@
 #Presentations
 
-##Give a talk to your classmates on one of the given [Topics][] listed below. 
+##Give a talk to your classmates on one of the given [Topics][#topics] listed below. 
 
 ###Tips and Requirements
 
 
 
-###Topics
+###Topics [topics]
