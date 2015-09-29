@@ -35,3 +35,45 @@ Prepare a talk for your classmates based on one of the topics listed below.
 
 ###Topics
 
+Some of these I've discussed in class, others I have not. You're also more than welcome to come up with your own topic, as long as it's related to web development, and as long as you discuss it with me beforehand. Hints and suggested are included with some topics, but by no means should your talk be limited to those subpoints. 
+
+- IIFES
+  - what they are and why we use them
+  - how do they relate to functional scope. 
+
+- .bind/.call/.apply
+  - relation to “this”
+
+- variadic behavior 
+    - spread operator in es6
+    - Array.prototype.slice.call(arguments)
+
+- jQuery-fetch vs $.ajax vs $.getJSON
+
+- jquery methods on DOM node objects
+  - pros & cons vs vanilla js
+
+- underscore methods 
+  - _.bind() etc
+  - relation to Array prototype methods
+
+- .git explained
+  - what is in the .git folder, what does it all mean, how does it relate to the git system at large?
+  - HEAD?
+  - config?
+
+- http verbs 
+  - PUT POST DELETE GET
+  
+- prototyping 
+  - prototype chain lookup 
+  - .__proto__ vs .prototype 
+
+- a bonus library of your choice. some suggestions:
+  - fartscroll
+  - snapJS
+  - moment.js
+  - reveal.js
+  - highcharts.js
+
+
