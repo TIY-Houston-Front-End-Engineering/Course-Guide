@@ -10,8 +10,11 @@
 >50% of what we SEE and HEAR
 >
 >70% of what is DISCUSSED with OTHERS
+>
 >80% of what is EXPERIENCED PERSONALLY
+>
 >95% of what we TEACH TO SOMEONE ELSE
+>
 >  ~ William Glasser
 
 Prepare a talk for your classmates based on one of the topics listed below. 
