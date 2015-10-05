@@ -3,9 +3,9 @@
 ## Requirements
 Using the React.js library, write a UI interface for a "time machine." The requirements for this interface are: 
   - A readout showing the "current year." 
-  - A button that will set the machine on a continuous path forward in time. 
+  - A button that will set the machine on a continuous path forward in time, evidenced by an incrementing year counter.  
   - A button that will stop the machine's progress.
-  - A button that will set the machine on a continuous path backward in time. 
+  - A button that will set the machine on a continuous path backward in time, evidenced by a decrementing year counter.   
   
 ## Hard Mode 
   - When the user starts the machine on a path through the years, the progress should begin slow and accelerate with time, until the years are flying by in a blur.
@@ -16,4 +16,4 @@ Using the React.js library, write a UI interface for a "time machine." The requi
   - If you use setInterval() to make the years progress, you'll need to use clearInterval() to stop the progression. 
 
 ## Deliverables
-  - A working, full interactive site on gh-pages, submitted via TIY-Classroom. 
+  - A working, fully interactive site on gh-pages, submitted via TIY-Classroom. 
