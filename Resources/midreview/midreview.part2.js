@@ -1,3 +1,9 @@
+var mocha = require('mocha'),
+    chai = require('chai')
+
+var assert = chai.assert;
+var expect = chai.expect;
+
 
 // 5. in a certain restaurant, a steak is $25, a bottle of wine is $40, a salad is $12, and a brownie sundae is $10. make a menu object that provides menu items as keys and prices as values. 
 
@@ -34,7 +40,7 @@ describe('Resturant' , function() {
 
             expect(applebees.getPrice('salad')).to.equal('$12')
             }
-        })
+        )
     })
 })
 
@@ -47,5 +53,26 @@ describe("pipeline()",function(){
 
         expect(pipeline(5,doubleNum,squareNum)).to.equal(100)
         expect(pipeline(10,squareNum,inverseNum)).to.equal(.01)
+    })
+})
+
+// test for #8
+
+describe("getValues()",function(){
+    it("should pipe the outputs of the functions passed in as arguments into a final value",function(){
+
+            var books = [
+                            {author: "vladimir nabokov",
+                            title: "lolita",
+                            year: "1955"},
+                            {author: "jk rowling",
+                            title: "harry potter and the powerful skin rash",
+                            year: 2016},
+                            {author: "david foster wallace",
+                            title: "oblivion",
+                            year: 2002}
+                        ]
+
+            expect(getValues(books,'title')).to.deep.equal(["lolita","harry potter and the powerful skin rash", "oblivion"])
     })
 })

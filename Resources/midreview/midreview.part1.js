@@ -54,6 +54,20 @@ describe('iPutTheFunIn()',function() {
 })
 
 
+var iPutTheFunIn = function(input) {
+    var midpoint = input.length/2,
+        part1 = input.slice(0,midpoint),
+        part2 = input.slice(midpoint,input.length)
+    return part1 + 'fun' + part2
+}
+
+var iPutTheFunIn = function(input) {
+    var newString = input,
+        halfPoint = newString.length/2
+    return newString.substr(0,halfPoint) + 'fun' + newString.substr(halfPoint)
+}
+
+
 // test for #4
 describe('incrementEach()', function() {
     it('should increase the value of each number in an array' , function() {
@@ -63,6 +77,35 @@ describe('incrementEach()', function() {
     })
 })
 
+var incrementEach = function(arr) {
+    var newArr = []
+    for (var i = 0; i < arr.length; i ++) {
+        newArr.push(arr[i] + 1)
+    }
+    return newArr   
+}
+
+[100,200,-1]
+
+[101,201,0]
+
+var incrementEach = function(arr) {
+    return arr.map((function(el){
+            return el + 1)
+    })
+}
+
+
+var shortiesOnly = function(arr) {
+    return arr.filter(function(el){
+        return el.length < 4
+    })
+}
+
+var isInteger = function(num){
+    if (typeof num !== 'number')
+    return num < 0
+}
 
 // test for #5
 describe('shortiesOnly()', function() {

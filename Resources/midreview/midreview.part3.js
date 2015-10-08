@@ -1,3 +1,8 @@
+var mocha = require('mocha'),
+    chai = require('chai')
+
+var assert = chai.assert;
+var expect = chai.expect;
 
 // 9. write a function called pipeline. it should take three inputs: (1) a string of text, (2) a function, and (3) another function. it should use functions (2) and (3) on the input, one after the other, and return a new string that has been processed by both function (2) and function (3).
 
