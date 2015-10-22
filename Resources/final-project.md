@@ -36,49 +36,21 @@ Start thinking about final projects a week ahead of time, and meet with your ins
 
 Make your projects centered around things you truly care about; bee-keeping, beer, dancing, hiking, basketball, etc. This makes a huge difference and can make the project a lot of fun.
 
-## Ask your peers for feedback
-
-Community feedback is invaluable in keeping scope-creep out and making sure the projects are the right mix of ambition, talent, feasibility, and hubris (a careful mixture of all four is required, IMHO).
-
-Peer code reviews are also extremely helpful.
-
 ## Start Small, Grow with Agility
 
 ![](./mvp-howto.jpg)
 
 > see https://pickcrew.com/how-to-build-an-online-business/balance-design-and-launching-early/ for more on this.
 
-## SCRUM
-
-- Before Sprints:
-    + Define User Personas
-    + Write User Stories
-    + Play "Planning Poker"
-    + Prioritize feature sets
-    + Estimate time for tasks
-    + Wireframe the UI, plan the RESTful API and resources (i.e. Domain Models) you will need to model a system
-- During Sprints:
-    - Each morning, there is a standup which involves
-        + A brief overview of the project and its status
-        + Each team member will discuss:        
-            * what was done yesterday
-            * what was done today
-            * any blockers / hurdles 
-- After Sprints:
-    + Code reviews
-    + Beer / Coffee
-
 ## Final Project Q&A
 
 1. Where do we have to be during final projects? In the lab? Home?
 
-    Monday through Thursday, be at The Iron Yard's office in the morning. We will be holding some small lectures here and there, and I will be helping to answer questions. **If you don't show up, ask questions, and drive your project in this crucial 3-week period, you won't receive career support.**
-
-    Fridays you will be free to work from home. (But we'll still have `#IronPints™`)
+    Monday through Thursday, be at The Iron Yard's office in the morning. We will take attendance during this period just like we do on any other week. **If you don't show up, ask questions, and drive your project in this crucial 3-week period, you won't receive career support.**
 
 - How often will lectures happen, and will they be optional?
 
-    They will happen probably two to three times each week; in the mornings. Some lectures will be optional, some will not. I will let you know in Slack ahead of time.
+    They will happen probably two to three times each week; in the mornings. Some lectures will be optional, some will not. We will let you know in Slack ahead of time.
 
 - How long will lectures be?
 
@@ -90,7 +62,14 @@ Peer code reviews are also extremely helpful.
 
 - How often do we checkin with the instructor? What about the campus director?
 
-    You must checkin with your instructor each morning with a standup. Once or twice each week, you should also be checking in with the campus director to discuss career support. 
+    You must checkin with your instructor and the class each morning with a group *standup*. Once or twice each week, you should also be checking in with the campus director to discuss career support. 
+
+- What is this *standup* you speak of?
+  The class gathers round the ceremonial whiteboard, and each student, one at a time, will name: 
+    - What he or she *did* since the last standup.
+    - What he or she *is doing* currently. 
+    - What he or she *will have done* by the next day's standup. 
+  These are meant to be quick meetings. The reason they're called standups is that we all stand up for them. The reason for the standing is that no one except weirdos likes to stand up for a long time. 
 
 - How much job-related stuff should I be doing?
 
@@ -99,7 +78,7 @@ Peer code reviews are also extremely helpful.
         - During final projects, do only two 1-hr job searches each week. That means, pick two evenings (Tues, Thurs), schedule them on your calendar (to get alerts so you don't forget), and don't do anything more.
         - After final projects, you will want to apply to 3 jobs each day (average: 15 a week).
 
-    **We already have some cool job sites and search engines for you, [collected here (link)](./job-resources/job-resources.md). You're welcome :-)**
+    **We already have some cool job sites and search engines for you, [collected here (link)](./job-resources/job-resources.md).**
 
 - What happens if I don't finish my project?
 
@@ -107,4 +86,4 @@ Peer code reviews are also extremely helpful.
 
 - If I don't finish, will I receive career support?
 
-    Not until you finish the project (you get to do that after class) and show you worked hard. The real hustle begins after class, when you start the job hunt. We'll teach you to fish, but we won't fish for you. 
+    Not until you finish the project (you get to do that after class) and show you worked hard. The real hustle begins after class, when you start the job hunt. 
