@@ -64,11 +64,11 @@ Make your projects centered around things you truly care about; bee-keeping, bee
 
     You must checkin with your instructor and the class each morning with a group **standup**. Once or twice each week, you should also be checking in with the campus director to discuss career support. 
 
-- What is this *standup* you speak of?
+- What is this **standup** you speak of?
   The class gathers round the ceremonial whiteboard, and each student, one at a time, will name: 
-    - What he or she *did* since the last standup.
-    - What he or she *is doing* currently. 
-    - What he or she *will have done* by the next day's standup. 
+    - What he or she **did** since the last standup.
+    - What he or she **is doing** currently. 
+    - What he or she **will have done** by the next day's standup. 
   These are meant to be quick meetings. The reason they're called standups is that we all stand up for them. The reason for the standing is that no one except weirdos likes to stand up for a long time. 
 
 - How much job-related stuff should I be doing?
