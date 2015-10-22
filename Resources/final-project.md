@@ -62,7 +62,7 @@ Make your projects centered around things you truly care about; bee-keeping, bee
 
 - How often do we checkin with the instructor? What about the campus director?
 
-    You must checkin with your instructor and the class each morning with a group *standup*. Once or twice each week, you should also be checking in with the campus director to discuss career support. 
+    You must checkin with your instructor and the class each morning with a group **standup**. Once or twice each week, you should also be checking in with the campus director to discuss career support. 
 
 - What is this *standup* you speak of?
   The class gathers round the ceremonial whiteboard, and each student, one at a time, will name: 
