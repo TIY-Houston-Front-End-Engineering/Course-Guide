@@ -27,7 +27,7 @@ This is going to be a large project that you will carry out **BY YOURSELF OR WIT
      
     User stories follow this structure: "As a ________ I want _______ so that ________"
 
-- You must research your APIs to ensure it is CORS or JSONP supported. If it isn't, you'll need a server-side proxy. If a server-side proxy might be needed, **you need to verify this immediately and let Matt know**.
+- You must research your APIs to ensure it is CORS or JSONP supported. If it isn't, you'll need a server-side proxy. If a server-side proxy might be needed, **you need to verify this immediately and let Justin know**.
 - You must write a README that lists all the technologies and APIs used in the project.
 
 ## Pitching The Projects
