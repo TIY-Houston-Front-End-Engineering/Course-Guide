@@ -30,7 +30,7 @@ Any holidays wil be announced with ample time.
 
 All students must bring their own MacBook laptop to class. We recommend the 13" MacBook Air or Pro. The only upgrade (if any) you should purchase is 8GB of RAM.
 
-Your MacBook must be running [OS X Yosemite](https://itunes.apple.com/us/app/os-x-yosemite/id915041082?mt=12), which is a free upgrade from the App Store. [Download and install it](https://itunes.apple.com/us/app/os-x-yosemite/id915041082?mt=12) if you haven't yet.
+Your MacBook must be running [OSX El Capitan](https://itunes.apple.com/us/app/os-x-el-capitan/id1018109117?mt=12), which is a free upgrade from the App Store. [Download and install it](https://itunes.apple.com/us/app/os-x-el-capitan/id1018109117?mt=12) if you haven't yet.
 
 Accounts to sign up for:
 
@@ -43,7 +43,7 @@ If you don't have an account with any of these, sign up for them now:
 
 There is no commercial software required for the class. We will install a number of tools to be used, such as a code editor and a chat program, but they will all be free and/or open-source. 
 
-A custom [install script](./extras/ultimate-install-script.sh) will be provided and run the first day of class. This script will install the necessary tools onto your Mac and also modify some of the settings to optimize the machine for programming, battery life, and other improved features.
+A custom [install script](https://github.com/TIY-Houston-Front-End-Engineering/Course-Guide/blob/master/Resources/system-resources/ultimate-install-script.sh) will be provided and run the first day of class. This script will install the necessary tools onto your Mac and also modify some of the settings to optimize the machine for programming, battery life, and other improved features.
 
 **Prework**
 
