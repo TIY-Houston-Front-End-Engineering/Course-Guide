@@ -25,3 +25,11 @@ Recreate the page shown in the gif below.
 
   - You must submit a link to a working/mock web site through the [tiy-classroom app](https://tiy-classroom.herokuapp.com).
   - I recommend using [codepen](https://codepen.io).
+
+###Adventure Mode: 
+
+  - Add an audio player to your photo grid, so the user can play a song or a famous speech (why not?) while they look at your fake pictures. 
+  - The audio player should appear in its own row, before the copyright line, like this:
+***
+[](./audioplayer.png)
+***
