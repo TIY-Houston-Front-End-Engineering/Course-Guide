@@ -10,9 +10,9 @@ To become familiar with:
 ###The task:
 
 Recreate the page shown in the gif below.
-
+* * * 
 ![](./photogrid.gif)
-
+***
 ###Notes and Requirements: 
 
   - The images must be 100px X 100px (note: you can simply use the lorempixel url for this, i.e. `http://lorempixel.com/100/100/`.
