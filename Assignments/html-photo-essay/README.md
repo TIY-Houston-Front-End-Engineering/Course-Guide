@@ -19,6 +19,6 @@ Recreate the page shown in the gif below.
   - The image grid must contain no more than 3 images per row, with at least 3 rows. 
   - You may NOT use `<br>` tags.
   - Clicking the link next to an image should refresh the page, replacing all images in the grid with new images.
-
- 
+  - The _content_ of heading, intro, copyright, etc., doesn't matter (obviously I've used placeholders), but the layout and formatting do. 
+  
 
