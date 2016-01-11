@@ -36,8 +36,8 @@ Accounts to sign up for:
 
 If you don't have an account with any of these, sign up for them now:
 
-1. http://github.com
-2. http://twitter.com
+1. http://codepen.io
+2. http://github.com
 3. http://medium.com
 4. http://trello.com (sign-in with your Google account for easier access)
 
