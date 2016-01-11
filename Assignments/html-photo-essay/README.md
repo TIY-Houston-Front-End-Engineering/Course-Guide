@@ -29,7 +29,7 @@ Recreate the page shown in the gif below.
 ###Adventure Mode: 
 
   - Add an audio player to your photo grid, so the user can play a song or a famous speech (why not?) while they look at your fake pictures. 
-  - There is a lot of free audio, if you need it, on the wikipedia commons. Here's the source lin for some audio of a person speaking [Azerbaijani](https://en.wikipedia.org/wiki/Azerbaijani_language): https://upload.wikimedia.org/wikipedia/commons/7/71/Az-Kamancha-article.ogg
+  - There is a lot of free audio, if you need it, on the wikipedia commons. Here's the source link for some audio of a person speaking [Azerbaijani](https://en.wikipedia.org/wiki/Azerbaijani_language): https://upload.wikimedia.org/wikipedia/commons/7/71/Az-Kamancha-article.ogg
   - The audio player should appear in its own row, before the copyright line, like this:
 
 ***
