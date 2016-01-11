@@ -15,7 +15,7 @@ Recreate the page shown in the gif below.
 ***
 ###Notes and Requirements: 
 
-  - The images must be 100px X 100px (note: you can simply use the lorempixel url for this, i.e. `http://lorempixel.com/100/100/`.
+  - The images must be 100px X 100px (note: you can specify the size within the lorempixel url, i.e. http://lorempixel.com/100/100/).
   - The image grid must contain no more than 3 images per row, with at least 3 rows. 
   - You may NOT use `<br>` tags.
   - Clicking the link next to an image should refresh the page, replacing all images in the grid with new images.
