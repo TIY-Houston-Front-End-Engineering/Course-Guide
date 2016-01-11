@@ -17,9 +17,10 @@ Compose an email to your instructor answering the following questions:
 - Which type of mindset (growth or fixed) do you think you are most strongly associated with? Why?
 - What difficulties do you predict that you will encounter during our course? How have you reacted to similar situations in the past? How do you plan on reacting to these situations during the class?
 
-Start a blog on http://medium.com, if you don't already have one, and read the post, slides, and watch the video series on personal branding with The Iron Yard's John Saddington:
+Start a blog on http://medium.com, if you don't already have one. 
 
-- http://blog.theironyard.com/2015/02/25/bb-workshop/
+Read the post and slides on [personal branding with The Iron Yard's John Saddington](http://blog.theironyard.com/2015/02/25/bb-workshop/), and watch the video series.
+
 
 **Part 2**
 
