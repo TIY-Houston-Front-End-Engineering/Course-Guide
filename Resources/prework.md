@@ -16,6 +16,8 @@ If you don't have an account with any of these, sign up for them now:
 There is no commercial software required for the class. We will install a number of tools to be used, such as a code editor and a chat program, but they will all be free and/or open-source. 
 If you're new to a Mac (or old, even), check out https://www.apple.com/support/macbasics/.
 
+*Most importantly*, we will be using an in-house content management system for attendance, submissions, and student evaluations. It's called TIY Classroom, and you need to enroll, before the first day of class, using this link: https://tiy-classroom.herokuapp.com/users/sign_up?cohort_id=53. Make sure to include your _name_ in the profile (this might seem like a dumb request, but it's not quite obvious in the sign-up interface).
+
 **Part 1**
 
 Read [Fixed vs. Growth: The Two Basic Mindsets That Shape Our Lives](http://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
