@@ -4,8 +4,16 @@ Prework is material that ensures you have the basic foundation required for the 
 
 **Part 0**
 
-Check the software and accounts you will need in the [Materials sections](./syllabus.md/#materials). Signup for any accounts that you currently do no have.
+Check the software and accounts you will need in the [Materials sections](./syllabus.md/#materials).
 
+If you don't have an account with any of these, sign up for them now:
+
+1. http://codepen.io
+2. http://github.com
+3. http://medium.com
+4. http://trello.com (sign-in with your Google account for easier access)
+
+There is no commercial software required for the class. We will install a number of tools to be used, such as a code editor and a chat program, but they will all be free and/or open-source. 
 If you're new to a Mac (or old, even), check out https://www.apple.com/support/macbasics/.
 
 **Part 1**
