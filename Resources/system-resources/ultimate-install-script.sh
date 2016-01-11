@@ -1,12 +1,9 @@
 #!/bin/bash
 
 #HOW TO USE THIS SCRIPT:
-## - open the program on your macbook called "terminal"
-## - copy and paste ALL the text in this file into the terminal command line. press enter. 
-
-## - alternately, if you're somewhat familiar with the command already, just download
-##   this file, navigate with the command line to the location of the file,
-##   and execute it using the command "bash ultimate-install-script.sh"
+##   download this file, or copy and paste all of its text into a file on your machine. 
+##   navigate in the terminal to the location of the file.
+##   execute it using the command "bash <filename>". for example, "bash ultimate-install-script.sh."
 
 set -e
 
