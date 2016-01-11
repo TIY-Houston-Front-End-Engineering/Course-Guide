@@ -32,5 +32,5 @@ Recreate the page shown in the gif below.
   - The audio player should appear in its own row, before the copyright line, like this:
 
 ***
-[](./audioplayer.png)
+![](./audioplayer.png)
 ***
