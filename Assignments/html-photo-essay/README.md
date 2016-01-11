@@ -21,4 +21,7 @@ Recreate the page shown in the gif below.
   - Clicking the link next to an image should refresh the page, replacing all images in the grid with new images.
   - The *content* of the heading, intro, copyright, etc., doesn't matter (obviously I've used placeholders), but the layout and formatting do. Even the bolding of your name at the bottom.
   
+###Submission:
 
+  - You must submit a link to a working/mock web site through the [tiy-classroom](https://tiy-classroom.herokuapp.com)app.
+  - I recommend using [codepen](https://codepen.io).
