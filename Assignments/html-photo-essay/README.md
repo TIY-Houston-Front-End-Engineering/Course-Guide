@@ -23,5 +23,5 @@ Recreate the page shown in the gif below.
   
 ###Submission:
 
-  - You must submit a link to a working/mock web site through the [tiy-classroom](https://tiy-classroom.herokuapp.com)app.
+  - You must submit a link to a working/mock web site through the [tiy-classroom app](https://tiy-classroom.herokuapp.com).
   - I recommend using [codepen](https://codepen.io).
