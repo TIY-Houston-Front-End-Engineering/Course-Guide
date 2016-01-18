@@ -38,15 +38,20 @@ After completing this assignment, you should be able to effectively:
     - `images` folder
         - with any images you used with your design
 
-### Requirements
-
 - a working, publicly visible website with a public URL (i.e. on Github pages, with DivShot, on Heroku, etc)
+
+OR 
+
+- For this assignment, you may use codepen or another cloud editor instead of uploading to GitHub. If you do, here are the image links you may need: 
+  - Houston skyline: http://magentanova.github.io/html-intro-1/images/houston.jpg
+  - TIY logo: http://magentanova.github.io/html-intro-1/images/ironyardlogo.png
+  - Classroom photo: http://magentanova.github.io/html-intro-1/images/classroom.jpg
 
 ## Normal Mode
 
 Recreate the following layout in HTML and CSS:
 
-![](./blog.png)
+![](./blog.gif)
 
 ## Notes
 
