@@ -30,8 +30,12 @@ Recreate the page shown in the gif below.
 
   - Add an audio player to your photo grid, so the user can play a song or a famous speech (why not?) while they look at your fake pictures. 
   - There is a lot of free audio, if you need it, on the wikipedia commons. Here's the source link for some audio of a person speaking [Azerbaijani](https://en.wikipedia.org/wiki/Azerbaijani_language): https://upload.wikimedia.org/wikipedia/commons/7/71/Az-Kamancha-article.ogg
-  - The audio player should appear in its own row, before the copyright line, like this:
+  - The audio player should appear in its own row, after the copyright line, like this:
 
 ***
 ![](./audioplayer.png)
 ***
+
+### Important food for thought
+
+Let's say you wanted to add a sidebar of text to your photo essay. Maybe a bio of yourself or a summary of the adventures that led you to acquire these photos. How would you do this with pure HTML? What difficulties would you encounter?
