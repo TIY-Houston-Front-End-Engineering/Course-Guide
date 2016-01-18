@@ -50,8 +50,11 @@ OR
 ## Normal Mode
 
 Recreate the following layout in HTML and CSS:
+![](./blog.png)
 
 ![](./blog.gif)
+
+Note that, as shown in the .gif, the popout box remains in place as the user scrolls.
 
 ## Notes
 
