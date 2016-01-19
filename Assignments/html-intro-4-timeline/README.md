@@ -35,9 +35,9 @@ After completing this assignment, you should be able to effectively:
 
 ## Normal Mode
 
-Recreate the following layout in HTML and CSS:
+Recreate the following responsive layout in HTML and CSS:
 
-![](./timeline.png)
+![](./timeline.gif)
 
 ## Notes
 
