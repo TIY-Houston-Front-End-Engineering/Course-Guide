@@ -22,19 +22,29 @@ console.assert(doubleNum(5) === 10)
  * PART 1
  *
  * Write a function called sum that takes two numbers as
- * arguments and computes the sum of those two numbers.
+ * inputs and computes the sum of those two numbers.
  */
 
 
 console.assert(sum(8, 11) === 19);
 console.assert(sum(4, 100) === 104);
 
+// PART 2
+
+// Write a function called average that takes two numbers
+// as inputs and returns the average of the two. To avoid
+// repeating yourself, use your sum function inside 
+// of your average function.
+
+
+console.assert(average(8,12) === 10)
+console.assert(average(100,200) === 150)
 
 /**
- * PART 2
+ * PART 3
  *
  * Modify your sum function so that if either of its 
- inputs is not a number, it will return "null"
+ inputs is not a number, it will return "null."
  */
 
 
@@ -43,7 +53,7 @@ console.assert(sum('867', 5309) === null);
 console.assert(sum(true, 5) === null);
 
 
-// Part 3
+// Part 4
 
 // Write a function called isNegative that will tell 
 // whether a number is negative or not. 
@@ -52,7 +62,13 @@ console.assert(isNegative(10) === false)
 console.assert(isNegative(0) === false)
 console.assert(isNegative(-999) === true)
 
-// Part 4 
+// Now, modify your sum function again, so that it 
+// will return null if any of the inputs is negative.
+// To avoid repeating yourself, 
+// ***use your isNegative function inside your sum funciton ***
+
+
+// Part 5
 // Make the following assertions pass. 
 
 console.assert(X === 10)
@@ -78,7 +94,7 @@ console.assert(x === 10)
 console.assert(y === 11)
 
 
-// Part 5 
+// Part 6
 
 // Write a function that will find the minimum of four 
 // input numbers. You can do it using nested if statements,
@@ -89,7 +105,8 @@ console.assert(minimum(1000,-2,-99,50) === -99)
 console.assert(minimum(-1000,-2,-99,50) === -1000)
 console.assert(minimum(1000,-2,99,50) === -2)
 
-// Part 6
+
+// Part 7
 
 // Using boolean operators, write a function that will
 // return true if either input is a string, but not 
@@ -100,7 +117,7 @@ console.assert(justOneString(6,'dotron') === true)
 console.assert(justOneString('peanut','butter') === false)
 console.assert(justOneString(8,null) === false)
 
-// Part 7 
+// Part 8
 
 // Write a function called doTwice that takes as input a 
 // function and invokes that function twice. 
@@ -125,7 +142,7 @@ console.assert(NUMBER === 12)
 doTwice(doubleGlobalNumber)
 console.assert(NUMBER === 48)
 
-// Part 8 
+// Part 9
 
 // Write a function called conditionallyInvoke that takes a function
 // as input. It should invoke that input function only if 
@@ -141,21 +158,21 @@ ORACLE = 'YES'
 conditionallyInvoke(doubleGlobalNumber)
 console.assert(NUMBER === 96)
 
-// Part 9
+// Part 10
 
 // Make the following assertion work:
 
 console.assert(factory()() === 'hello world')  // INCEPTION!
 
 
-// Part 10
+// Part 11
 
 // Want more? 
 
 console.assert(factory2()('you sly dog') === 'you sly dog')
 console.assert(factory2()(999) === 999)
 
-// Part 11
+// Part 12
 
 // This can't be good for your sanity...
 
