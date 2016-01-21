@@ -62,10 +62,13 @@ console.assert(isNegative(10) === false)
 console.assert(isNegative(0) === false)
 console.assert(isNegative(-999) === true)
 
+
 // Now, modify your sum function again, so that it 
 // will return null if any of the inputs is negative.
 // To avoid repeating yourself, 
 // ***use your isNegative function inside your sum funciton ***
+
+console.assert(sum(5,-5) === null)
 
 
 // Part 5
