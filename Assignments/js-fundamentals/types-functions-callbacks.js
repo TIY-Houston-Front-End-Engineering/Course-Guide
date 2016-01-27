@@ -65,8 +65,8 @@ console.assert(isNegative(-999) === true)
 
 // Now, modify your sum function again, so that it 
 // will return null if any of the inputs is negative.
-// To avoid repeating yourself, 
-// ***use your isNegative function inside your sum funciton ***
+// To avoid repeating yourself, use your isNegative 
+// function inside your sum funciton ***
 
 console.assert(sum(5,-5) === null)
 
@@ -101,7 +101,7 @@ console.assert(y === 11)
 
 // Write a function that will find the minimum of four 
 // input numbers. You can do it using nested if statements,
-// boolean operators, or both. 
+// boolean operators, or both (but not neither). 
 
 console.assert(minimum(1,2,4,0) === 0)
 console.assert(minimum(1000,-2,-99,50) === -99)
@@ -177,7 +177,7 @@ console.assert(factory2()(999) === 999)
 
 // Part 12
 
-// This can't be good for your sanity...
+// This can't be healthy...
 
 console.assert(factory3('i have reached function nirvana')() === 'i have reached function nirvana')
 console.assert(factory3(100)() === 100)
