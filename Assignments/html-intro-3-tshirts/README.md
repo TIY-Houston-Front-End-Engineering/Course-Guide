@@ -19,8 +19,6 @@ After completing this assignment, you should be able to effectively:
 
 - create complex, multi-column layouts, with a variety of different methods; combining multiple approaches to achieve truly creative interface potential
 
-## Details
-
 ### Deliverables
 
 - a working, publicly visible website with a public URL (i.e. on Github pages, with DivShot, on Heroku, etc)
