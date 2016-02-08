@@ -78,6 +78,7 @@ console.assert(sum(5,-5) === null)
 // Part 5
 // Make the following assertions pass. 
 
+var X = 10
 console.assert(X === 10)
 increment()
 console.assert(X === 11)
