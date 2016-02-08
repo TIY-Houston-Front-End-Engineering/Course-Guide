@@ -5,6 +5,10 @@
 // assertions work and how the homework should be carried out. 
 // We'll do it together in class.
 
+// Part EXAMPLE
+
+// Write a function called addOne() that returns the input number, plus one. 
+
 console.assert(addOne(1) === 2)
 
 // Part 0
