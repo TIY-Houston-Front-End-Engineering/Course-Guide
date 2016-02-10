@@ -100,10 +100,3 @@ console.assert(GCD(5,1) === 1);
 console.assert(GCD(15,3) === 3);
 console.assert(GCD(15,5) === 5);
 console.assert(GCD(50,20) === 10);
-
-
-Part 7
-
-
-
-
