@@ -12,6 +12,7 @@ var customers = [
     { first: 'Jack', last: 'White'}
 ]
 
+
 console.assert(getFullNames(customers)[1] === "John Smith")
 
 
@@ -19,6 +20,8 @@ console.assert(getFullNames(customers)[1] === "John Smith")
 
 // Write a function called getCounts that takes a string of text as input and returns
 // an object which stores the frequency of each word in the string.
+
+// Note that your counts should NOT be case-sensitive.
 
 var text = "It’s obviously not the case, but T’Challa—the Black Panther and mythical ruler of Wakanda—has always struck as the product of the black nationalist dream, a walking revocation of white supremacist myth. T’Challa isn’t just a superhero in the physical sense, he is one of the smartest people in the world, ruling the most advanced civilization on the planet. Wakanda’s status as ever-independent seems to eerily parallel Ethiopia’s history as well as its place in the broader black imagination. Maybe it’s only me, but I can’t read Jason Aaron’s superb “See Wakanda And Die” and not think of Adowa.\
 Comic book creators, like all story-tellers, get great mileage out of myth and history. But given the society we live in, some people’s myths are privileged over others. Some of that is changing, no doubt. In the more recent incarnations of T’Challa you can see Christopher Priest invoking the language of the Hausa or Reginald Hudlin employing the legacy of colonialism. These were shrewd artistic decisions, rooted in the fact that anyone writing Black Panther enjoys an immediate, if paradoxical, advantage: the black diaspora is terra incognita for much of the world. What does the broader world really know of Adowa? Of Nanny and Cudjoe? Of the Maji-Maji rebellion? Of Legba and Oshun?  Of Shine? Of High John The Conqueror? T’Challa’s writers have always enjoyed access to a rich and under-utilized pool of allusion and invocation."
@@ -29,17 +32,27 @@ console.assert(wordFrequencyObject.but === 3)
 console.assert(wordFrequencyObject.black === 5)
 
 
+
+
 // Part 3
 
 // Write a function called generateDog that returns an object which represents a dog.
 // The dog object should have attributes like legs, weight and color. It should have a 
 // speak() method that receives a string as input and returns a new version of that 
 // string where the first letter of every word is replaced with the letter 'r'.
+// The dog constructor (which is what this is) should take a name input, and the
+// dog should receive the assigned name.
 
-var dog = generateDog()
+
+var dog = generateDog('rex')
 
 console.assert(dog.legs === 4)
 console.assert(dog.speak('i love you') === 'r rove rou')
+console.assert(dog.name === 'rex')
+
+var dog = generateDog('carl')
+console.assert(dog.name === 'carl')
+
 
 
 // Part 4 
@@ -47,6 +60,9 @@ console.assert(dog.speak('i love you') === 'r rove rou')
 // Write a function pluck() that, given a list of objects, extracts a list of
 // the values associated with a given property name.
 
+// e.g:
+// pluck(stooges, 'name')
+// ['moe','larry','curly']
 
 // tests
 // ---
@@ -62,12 +78,16 @@ console.assert(pluck(stooges, 'age')[2] === 60)
 // and returns an array of those same objects, but with the properties and 
 // values reversed.
 
-var users = [{obama: 'president@gmail.com'},{trump: 'americamoneywin@yahoo.com'},{bush: 'jeb!@hotmail.com'}]
+
+
+var users = [{obama: 'president@gmail.com',hobby: 'basketball'},{trump: 'americamoneywin@yahoo.com', hobby:'dealmaking'},{bush: 'jeb!@hotmail.com',hobby:'portraiture'}]
+// should yield: [{'president@gmail.com': 'obama',basketball: 'hobby'}, ....]
 
 var flippedUsers = reverseObjects(users)
 
-console.assert(flippedUsers['president@gmail.com'] === 'obama')
-console.assert(flippedUsers['americamoneywin@yahoo.com'] === 'trump')
+console.assert(flippedUsers[0]['president@gmail.com'] === 'obama')
+console.assert(flippedUsers[1]['americamoneywin@yahoo.com'] === 'trump')
+console.assert(flippedUsers[1].dealmaking === 'hobby')
 
 // Part 6
 
@@ -106,6 +126,7 @@ console.assert(planetTom['prop'] === undefined)
 // a properties object. It should return a new list containing only those
 // objects that meet the key-value conditions.
 // -----------
+
 
 var plays = [
     {title: "Cymbeline", author: "Shakespeare", year: 1623},
