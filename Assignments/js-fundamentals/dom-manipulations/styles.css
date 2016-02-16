@@ -1,0 +1,156 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Helvetica Neue';
+}
+
+hr.q-divider{
+  margin: 80px 0;
+}
+
+.exercise-container{
+  font-size: 0;
+}
+.exercise-container > * {
+  font-size: medium;
+}
+
+.prompt h3{
+  font-size: 30px;
+  font-weight:200;
+  background: #7f8c8d;
+  color: #eee;
+  padding: 6px 10px;
+  margin:0;
+}
+
+.prompt p {
+  background: #eee;
+  font-size: 18px;
+  padding: 20px 18px;
+  margin: 0;
+  font-weight:600;
+}
+
+.exercise-container > *{
+  font-size: medium;
+}
+
+
+.content-box{
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  padding: 20px;
+}
+
+.content-box h4 {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 21px;
+  margin: 10px 0 ;
+}
+
+.teacher-demo h4{
+  background: #2980b9;
+}
+
+.student-workspace h4{
+  background: #27ae60;
+}
+
+.student-workspace button{
+  padding: 13px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 6px;
+  background: #f1c40f;
+  border: 1px solid #333;
+  font-weight: 700;
+}
+.student-workspace button:hover{
+  background: #f39c12;
+}
+
+
+.answer-box{
+  background: #bdc3c7;
+  padding: 50px 15px;
+}
+
+.teacher-demo img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* ---------------------- */
+/* pig-lating styles formatting*/
+/* ---------------------- */
+
+#pig-latin .answer-box ul {
+  background: #3498db;
+}
+
+/* ---------------------- */
+/* blow-up styles formatting*/
+/* ---------------------- */
+
+#blow-up .answer-box .circle-red {
+  width: 40px;
+  height: 40px;
+  background: #c0392b;
+  margin: 0 auto;
+  border-radius: 50%;
+  transition: all .1s;
+}
+
+/* ---------------------- */
+/* reverse-squares formatting*/
+/* ---------------------- */
+
+#reverse-squares .answer-box{
+  text-align: center;
+  font-size: 0;
+}
+
+#reverse-squares .answer-box span.square{
+  width: 50px; height: 50px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+#reverse-squares .answer-box span.s1{
+  background: #8e44ad;
+}
+
+#reverse-squares .answer-box span.s2{
+  background: #34495e;
+}
+
+#reverse-squares .answer-box span.s3{
+  background: #d35400;
+}
+
+/*color-circle formatting*/
+
+
+.exercise-container #circle-bw {
+  border-radius: 50%;
+  background: rgb(255,255,255);
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  vertical-align: bottom;
+}
+
+
+/*compound-investment formatting*/
+
+#compoundInvestment {
+  font-size: 36px;
+  margin-left: 8rem;
+}
+
