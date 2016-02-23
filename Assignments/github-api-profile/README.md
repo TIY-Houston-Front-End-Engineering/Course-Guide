@@ -32,7 +32,7 @@ After completing this assignment, you should be able to:
 * No JS errors in the browser
 * All functions and code should work according to the following description.
 
-## Easy Mode
+## Normal Mode
 
 Recreate the HTML and CSS for the Github tab page (https://github.com/matthiasak?tab=repositories) as your design, and using two AJAX requests/Promises, pull your own profile information from Github:
 
@@ -49,14 +49,6 @@ After loading data from the Github API, write at least the following information
 - html_url
 - for each repo owned by your user, list that repo in a `<ul>`
 
-## Hard Mode
+## Adventure Mode
 
-Create a `GithubClient` Constructor and Prototype chain that implements all the above functionality, but allows you to display multiple profiles on the page by creating multiple instances:
-
-```js
-var matt = new GithubClient('matthiasak')
-var jesse = new GithubClient('jwo')
-
-matt.appendTo('.container')
-jesse.appendTo('.container')
-```
+Include an `<input>` tag on your page that will allow users to search for a particular GitHub account. Once the user presses enter in the `<input>` tag, your app should make a new request to the GitHub server, and display information for the corresponding user. 
