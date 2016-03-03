@@ -1,7 +1,7 @@
 # Constructors
 
 ## Description
-curl `call-apply-bind.js` and add code to make the assertions pass. 
+curl `context-prototypes.js` and add code to make the assertions pass. 
 
 ## Objectives
 
