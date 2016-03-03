@@ -2,7 +2,7 @@
 
 ## Summary
 
-After the second week of JavaScript instruction in the FEE class, the exercises included in `drills.js` should be an accurate reflection of a student's skills. As part of your prework, work through *as many of these drills as you can*. We recommend at least trying each of them. They are the *best* reflection of what this course will be like, and of the skills that you'll need to have as an entry-level JavaScript developer. 
+After the second week of JavaScript instruction in the FEE class, the exercises included in `drills.js` should be an accurate reflection of a student's skills. As part of your prework, work through *as many of these drills as you can*. We recommend at least trying each of them. They are the *best* reflection of what this course will be like, and of the skills that you'll need to have as an entry-level JavaScript developer. Note that this is not an admissions test; our expectation is that you'll be able to successfully complete few, if any, of these drills. We expect exposure to this material, not proficiency with it. If your studies here generate questions for your potential instructor, that will be a big plus in your enrollment interview. 
 
 
 ## How to
