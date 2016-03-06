@@ -73,7 +73,7 @@ In addition to the arrows, the details screen should list other products made by
 An addition to Normal and Adventure Modes, provide a list of checkboxes on the home screen, by the search form:
 
 - posted in the last week
-- Under $25
+- under $25
 - has 3 pictures
 
 When these checkboxes are selected, the home and search screens should show the results from Etsy, filtered to match the items in the checkboxes.
