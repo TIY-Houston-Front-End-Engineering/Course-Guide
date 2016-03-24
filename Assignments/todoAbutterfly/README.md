@@ -10,8 +10,10 @@ Design a model-view architecture (required view: React; suggested model/collecti
 
 ## Hard Mode
 
-Instead of simply removing a completed task, a user should be able to toggle that task's completion status. Additionally, your app should have three routes/views: all tasks, done tasks, and undone tasks, where each view shows only its designated subset of tasks. See the gif below for an example. Please note that in real life, checkmarks appear in every clicked box -- they just don't show up in the darn gif.  
+Instead of simply removing a completed task, a user should be able to toggle that task's completion status. Additionally, your app should have three routes/views: all tasks, done tasks, and undone tasks, where each view shows only its designated subset of tasks. See the gif below for an example. Please note that in real life as in the static image, checkmarks appear in every clicked box -- they just don't show up in the darn gif.  
+
+
+![](./todo.png)
 
 ![](./todo.gif)
 
-![](./todo.png)

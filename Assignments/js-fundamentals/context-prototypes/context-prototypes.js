@@ -162,7 +162,8 @@ LoggingService.prototype = {
     return this.totalLogs
   },
 
-  toggleStatus: function(){
+  toggleStatus: function(extraParam){
+    console.log("look at my " + extraParam)
     if (!this.active) this.active = true
     else this.active = false
     this.updatedAt = new Date()
@@ -200,6 +201,7 @@ var record3 = {
 
 // -- ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ - Your Answer - ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ -- //
 
+LoggingService.prototype.toggleStatus.call(record1,)  
 // -- ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ -- //
 
 // ==== Validating =============================================== //

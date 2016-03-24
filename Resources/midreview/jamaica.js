@@ -1,3 +1,5 @@
+var jquery = $
+
 
 var Place = function(){
     this.fetchData = function(loc){

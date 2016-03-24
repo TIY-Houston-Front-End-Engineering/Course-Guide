@@ -44,20 +44,7 @@ describe('Resturant' , function() {
     })
 })
 
-// test for #7
-describe("pipeline()",function(){
-    it("should pipe the outputs of the functions passed in as arguments into a final value",function(){
-    	var squareNum = function(num) {return num * num},
-    		doubleNum = function(num) {return num * 2},
-    		inverseNum = function(num) {return 1 / num}
-
-        expect(pipeline(5,doubleNum,squareNum)).to.equal(100)
-        expect(pipeline(10,squareNum,inverseNum)).to.equal(.01)
-    })
-})
-
 // test for #8
-
 describe("getValues()",function(){
     it("should pipe the outputs of the functions passed in as arguments into a final value",function(){
 

@@ -5,9 +5,7 @@
  */
 
 function sumOfArray(arr){
-    var sum = 0
-    // YOUR CODE HERE
-    return sum
+
 }
 
 console.assert(sumOfArray([1, 2]) === 3);
@@ -29,10 +27,12 @@ function sum(a, b){
 console.assert(sum(8, 11) === 19);
 console.assert(sum(4, 100) === 104);
 
+
+
 /**
  * PART 2
  *
- * write a function that finds the Greatest Common Denominator of two numbers
+ * write a function that returns the Greatest Common Denominator of two numbers
  * - if no GCD exists, return 1
  */
 
@@ -48,7 +48,7 @@ console.assert(GCD(50,20) === 10);
 /**
  * PART 3
  *
- * write a function that prints out the Least Common Multiple of two numbers
+ * write a function that returns the Least Common Multiple of two numbers
  */
 
 function LCM(a, b){
@@ -58,7 +58,6 @@ function LCM(a, b){
 console.assert(LCM(10,10) === 10)
 console.assert(LCM(2,5) === 10)
 console.assert(LCM(3,6) === 6)
-console.assert(LCM(0,1) === 0)
 
 /**
  * Part 4
@@ -79,3 +78,11 @@ console.assert(fizzbuzz(2) === "..")
 console.assert(fizzbuzz(3) === "..fizz")
 console.assert(fizzbuzz(5) === "..fizz.buzz")
 console.assert(fizzbuzz(10) === "..fizz.buzzfizz..fizzbuzz")
+
+// to add
+
+// a simple callback function
+
+// a zen-like, no-instructions, make this work:
+
+console.assert(factory()() === 'hello world')
