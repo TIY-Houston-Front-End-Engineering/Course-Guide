@@ -57,7 +57,7 @@ On the home screen, add a searchbar that would allow the user to enter a keyword
 
 Notice the `&keywords=...` in the following example URL for searching: https://openapi.etsy.com/v2/listings/active.js?api_key=aavnvygu0h5r52qes74x9zvo&keywords=banana+costume&callback=?.
 
-## Hard Mode
+## Adventure Mode
 
 An addition to Easy Mode, display left/right arrows on the details screen (like one would a photo gallery):
 
@@ -68,12 +68,12 @@ In addition to the arrows, the details screen should list other products made by
 
 > reference https://www.etsy.com/developers/documentation/reference/listing#method_findallshoplistingsactive
 
-## Nightmare Mode
+## Master Mode
 
-An addition to Normal and Hard Modes, provide a list of checkboxes on the home screen, by the search form:
+An addition to Normal and Adventure Modes, provide a list of checkboxes on the home screen, by the search form:
 
 - posted in the last week
-- on sale
+- under $25
 - has 3 pictures
 
 When these checkboxes are selected, the home and search screens should show the results from Etsy, filtered to match the items in the checkboxes.
