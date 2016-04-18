@@ -2,63 +2,62 @@
 
 Prework is material that ensures you have the basic foundation required for the course. Starting learning before the class is like training for a marathon. You don't show up the day of the race and start, you need to train beforehand. In our classes, your brain is the muscle that needs to train. This prework is training for your brain.
 
-**Part 0**
 
-Check the software and accounts you will need in the [Materials sections](./syllabus.md/#materials).
+## Before enrollment
 
-If you don't have an account with any of these, sign up for them now:
+1. Work through the JavaScript track on CodeAcademy: http://www.codecademy.com/tracks/javascript. Go as far as you need in order to complete the task in (2), below.
 
-1. http://codepen.io
-2. http://github.com
-3. http://medium.com
-4. http://trello.com (sign-in with your Google account for easier access)
+2. Attempt the 23-question assessment here: http://tinyurl.com/zwsqqfc. You don't need to get every question right; you don't even need to *attempt* every question. Once you've done all you can, though, send your (numbered) responses to the front-end javascript instructor. His email is justin.richards@theironyard.com.
 
-There is no commercial software required for the class. We will install a number of tools to be used, such as a code editor and a chat program, but they will all be free and/or open-source. 
-If you're new to a Mac (or old, even), check out https://www.apple.com/support/macbasics/.
+A few notes on the coding environment linked in the above url: 
 
-**Part 1**
-
-Read [Fixed vs. Growth: The Two Basic Mindsets That Shape Our Lives](http://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
-
-Compose an email to your instructor answering the following questions:
-
-- Which type of mindset (growth or fixed) do you think you are most strongly associated with? Why?
-- What difficulties do you predict that you will encounter during our course? How have you reacted to similar situations in the past? How do you plan on reacting to these situations during the class?
-
-Start a blog on http://medium.com, if you don't already have one. 
-
-Read the post and slides on [personal branding with The Iron Yard's John Saddington](http://blog.theironyard.com/2015/02/25/bb-workshop/), and watch the video series.
+  - Use the `log` function to write output to the right-hand pane. For example, try typing `log('hello world')` in the left-hand pane. You'll make heavy use of those `log` statements to debug and inspect variables. 
+  - With every keystroke you make in the left-hand pane, all the code in that region will be re-evaluated, and all output will be shown on the right. 
 
 
-**Part 2**
+## After enrollment
 
-Start these and finish (as much as humanly possible):
+  - Check the software and accounts you will need in the [Materials sections](./syllabus.md/#materials).
 
-1. Learn to use the terminal (estimated time, 4 hours)
+    If you don't have an account with any of these, sign up for them now:
+    
+      - http://codepen.io
+      - http://github.com
+      - http://medium.com
+      - http://trello.com (sign-in with your Google account for easier access)
 
-    The command line is an interface to the internals of your computer, as opposed to the graphical user interface (GUI) that we commonly use. We will be using the command line extensively in our class, but the point of this prework is not to be an expert, just to start to get comfortable.
+    There is no commercial software required for the class. We will install a number of tools to be used, such as a code editor and a chat program, but they will all be free and/or open-source. 
+    If you're new to a Mac (or old, even), check out https://www.apple.com/support/macbasics/.
 
-    Especially if you’ve never used the command line before, you may want to go through these more than once. Make sure not just to read/watch, but really dive in and use the commands that you learn about.
+  - Read the post and slides on [personal branding with The Iron Yard's John Saddington](http://blog.theironyard.com/2015/02/25/bb-workshop/), and watch the video series.
 
-    Read the following article and complete the course on Treehouse:
+  - Start these and finish (as much as humanly possible):
 
-    > Note: Treehouse has free 14-day trials. Just use a trial.
-
-    - http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything
-    - http://teamtreehouse.com/library/console-foundations#getting-started-with-the-console
-
-2. Learn some basic HTML and CSS
-
-    - http://www.codecademy.com/tracks/web,
-    - https://dash.generalassemb.ly/
-
-3. Start learning JavaScript
-
-    - http://www.codecademy.com/tracks/javascript
-
-4. Start learning Git
-
-    - https://www.codeschool.com/courses/git-real
+    1. Learn to use the terminal (estimated time, 4 hours)
+    
+        The command line is an interface to the internals of your computer, as opposed to the graphical user interface (GUI) that we commonly use. We will be using the command line extensively in our class, but the point of this prework is not to be an expert, just to start to get comfortable.
+    
+        Especially if you’ve never used the command line before, you may want to go through these more than once. Make sure not just to read/watch, but really dive in and use the commands that you learn about.
+    
+        Read the following article and complete the course on Treehouse:
+    
+        > Note: Treehouse has free 14-day trials. Just use a trial.
+    
+        - http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything
+        - http://teamtreehouse.com/library/console-foundations#getting-started-with-the-console
+    
+    2. Learn some basic HTML and CSS
+    
+        - http://www.codecademy.com/tracks/web,
+        - https://dash.generalassemb.ly/
+    
+    3. Finish learning JavaScript
+    
+        - http://www.codecademy.com/tracks/javascript
+    
+    4. Start learning Git
+    
+        - https://www.codeschool.com/courses/git-real
 
 Spend ~ 1-2 hours each day on the courses to round out any foundational knowledge necessary to start the class.
 
