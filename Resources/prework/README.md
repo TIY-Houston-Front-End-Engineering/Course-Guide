@@ -11,8 +11,8 @@ Prework is material that ensures you have the basic foundation required for the 
   
   A few notes on the coding environment linked in the above url: 
   
-    - Use the `log` function to write output to the right-hand pane. For example, try typing `log('hello world')` in the left-hand pane. You'll make heavy use of those `log` statements to debug and inspect variables. 
-    - With every keystroke you make in the left-hand pane, all the code in that region will be re-evaluated, and all output will be shown on the right. 
+  - Use the `log` function to write output to the right-hand pane. For example, try typing `log('hello world')` in the left-hand pane. You'll make heavy use of those `log` statements to debug and inspect variables. 
+  - With every keystroke you make in the left-hand pane, all the code in that region will be re-evaluated, and all output will be shown on the right. 
 
 
 ## After enrollment
