@@ -5,19 +5,19 @@ Prework is material that ensures you have the basic foundation required for the 
 
 ## Before enrollment
 
-1. Work through the JavaScript track on CodeAcademy: http://www.codecademy.com/tracks/javascript. Go as far as you need in order to complete the task in (2), below.
-
-2. Attempt the 23-question assessment here: http://tinyurl.com/zwsqqfc. You don't need to get every question right; you don't even need to *attempt* every question. Once you've done all you can, though, send your (numbered) responses to the front-end javascript instructor. His email is justin.richards@theironyard.com.
-
-A few notes on the coding environment linked in the above url: 
-
-  - Use the `log` function to write output to the right-hand pane. For example, try typing `log('hello world')` in the left-hand pane. You'll make heavy use of those `log` statements to debug and inspect variables. 
-  - With every keystroke you make in the left-hand pane, all the code in that region will be re-evaluated, and all output will be shown on the right. 
+  1. Work through the JavaScript track on CodeAcademy: http://www.codecademy.com/tracks/javascript. Go as far as you need in order to complete the task in (2), below.
+  
+  2. Attempt the 23-question assessment here: http://tinyurl.com/zwsqqfc. You don't need to get every question right; you don't even need to *attempt* every question. Once you've done all you can, though, send your (numbered) responses to the front-end javascript instructor. His email is justin.richards@theironyard.com.
+  
+  A few notes on the coding environment linked in the above url: 
+  
+    - Use the `log` function to write output to the right-hand pane. For example, try typing `log('hello world')` in the left-hand pane. You'll make heavy use of those `log` statements to debug and inspect variables. 
+    - With every keystroke you make in the left-hand pane, all the code in that region will be re-evaluated, and all output will be shown on the right. 
 
 
 ## After enrollment
 
-  - Check the software and accounts you will need in the [Materials sections](./syllabus.md/#materials).
+  1. Check the software and accounts you will need in the [Materials sections](./syllabus.md/#materials).
 
     If you don't have an account with any of these, sign up for them now:
     
@@ -29,9 +29,9 @@ A few notes on the coding environment linked in the above url:
     There is no commercial software required for the class. We will install a number of tools to be used, such as a code editor and a chat program, but they will all be free and/or open-source. 
     If you're new to a Mac (or old, even), check out https://www.apple.com/support/macbasics/.
 
-  - Read the post and slides on [personal branding with The Iron Yard's John Saddington](http://blog.theironyard.com/2015/02/25/bb-workshop/), and watch the video series.
+  2. Read the post and slides on [personal branding with The Iron Yard's John Saddington](http://blog.theironyard.com/2015/02/25/bb-workshop/), and watch the video series.
 
-  - Start these and finish (as much as humanly possible):
+  3. Start these and finish (as much as humanly possible):
 
     1. Learn to use the terminal (estimated time, 4 hours)
     
@@ -59,14 +59,12 @@ A few notes on the coding environment linked in the above url:
     
         - https://www.codeschool.com/courses/git-real
 
-Spend ~ 1-2 hours each day on the courses to round out any foundational knowledge necessary to start the class.
+    Spend ~ 1-2 hours each day on the courses to round out any foundational knowledge necessary to start the class.
 
-**Part 3**
+  4. If you are ready for more advanced stuff, whet your whistle with this bonus material:
 
-If you are ready for more advanced stuff, whet your whistle with this bonus material:
+    - watch these podcasts (there are new releases approx. every week): http://www.atozcss.com/
+    - start the Codecademy jQuery course: http://www.codecademy.com/tracks/jquery
+    - Rocked the other stuff and still hungry for more? Have a read through of Douglas Crockford’s “JavaScript: The Good Parts”: http://it-ebooks.info/book/274/
 
-- watch these podcasts (there are new releases approx. every week): http://www.atozcss.com/
-- start the Codecademy jQuery course: http://www.codecademy.com/tracks/jquery
-- Rocked the other stuff and still hungry for more? Have a read through of Douglas Crockford’s “JavaScript: The Good Parts”: http://it-ebooks.info/book/274/
-
-Additional entry-level walkthroughs: https://webmaker.org/en-US
+    Additional entry-level walkthroughs: https://webmaker.org/en-US
