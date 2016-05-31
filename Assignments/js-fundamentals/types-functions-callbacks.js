@@ -76,33 +76,6 @@ console.assert(sum(5,-5) === null)
 
 
 // Part 5
-// Make the following assertions pass. 
-
-var X = 10
-console.assert(X === 10)
-increment()
-console.assert(X === 11)
-
-// This exercise is meant to demonstrate the concept
-// of scope. The variable X here must have global
-// scope in order for the assertions to pass. 
-
-// Important note: By convention, GLOBAL variables
-// are written in ALL CAPS. I will do the same throughout
-// your assignments and the class.
-
-// Since global variables are rarely used and often 
-// discouraged, why don't you fix the increment
-// function below. Make the following assertions
-// pass.
-
-console.assert(x === 10)
-var y = increment(x)
-console.assert(x === 10)
-console.assert(y === 11)
-
-
-// Part 6
 
 // Write a function that will find the minimum of four 
 // input numbers. You can do it using nested if statements,
@@ -116,7 +89,7 @@ console.assert(minimum(1000,-2,99,50) === -2)
 
 // Part 7
 
-// Using boolean operators, write a function that will
+// Using logical operators, write a function that will
 // return true if either input is a string, but not 
 // both or neither. 
 
@@ -124,6 +97,7 @@ console.assert(justOneString('a',5) === true)
 console.assert(justOneString(6,'dotron') === true)
 console.assert(justOneString('peanut','butter') === false)
 console.assert(justOneString(8,null) === false)
+
 
 // Part 8
 
