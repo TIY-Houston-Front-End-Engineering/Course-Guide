@@ -1,3 +1,26 @@
+// NORMAL MODE ( 0 - 4 )
+
+
+// Part 0 
+
+// Write a function called flipColor. This function may be 
+// used to change the color of a tile in a game. It should 
+// take as input an object. If that object's color property
+// has the value blue, it should change it to red, and 
+// vice-versa.
+
+
+var tile = {
+    width: "200px",
+    height: "200px",
+    background: "black",
+    color: "blue"
+}
+
+var tile2 = flipColor(obj)
+console.assert(tile2.color === "red")
+console.assert(flipColor(tile2).color === "blue")
+
 
 // Part 1
 
@@ -12,11 +35,54 @@ var customers = [
     { first: 'Jack', last: 'White'}
 ]
 
-
 console.assert(getFullNames(customers)[1] === "John Smith")
 
 
+
+
 // Part 2
+
+// Write a function called generateDog that returns an object which represents a dog.
+// The dog object should have attributes like legs, weight and color. The dog *constructor* 
+// (which is, almost, what this is) should take a name input, and the dog should receive the 
+// assigned name.
+
+var dog = generateDog('rex')
+
+console.assert(dog.legs === 4)
+console.assert(dog.name === 'rex')
+
+var dog = generateDog('carl')
+console.assert(dog.name === 'carl')
+
+
+// Give the dog a method called .speak(). speak() should receive a string as input and 
+// return a new version of that string where the first letter of every word is replaced 
+// with the letter 'r'.
+
+
+console.assert(dog.speak('i love you') === 'r rove rou')
+console.assert(dog.speak('so hungry') === 'ro rungry')
+
+
+
+
+// Part 3
+
+// Write a function pluck() that, given a list of objects, extracts a list of
+// the values associated with a given property name.
+
+// e.g:
+// pluck(stooges, 'name') should yield the array, ['moe','larry','curly']
+
+var stooges = [{name: 'moe', age: 40}, {name: 'larry', age: 50}, {name: 'curly', age: 60}]
+
+console.assert(pluck(stooges, 'name')[0] === 'moe')
+console.assert(pluck(stooges, 'age')[2] === 60)
+
+
+
+// Part 4
 
 // Write a function called getCounts that takes a string of text as input and returns
 // an object which stores the frequency of each word in the string.
@@ -34,51 +100,33 @@ console.assert(wordFrequencyObject.black === 5)
 
 
 
-// Part 3
+// ADVENTURE MODE ( 5 - 8 )
 
-// Write a function called generateDog that returns an object which represents a dog.
-// The dog object should have attributes like legs, weight and color. It should have a 
-// speak() method that receives a string as input and returns a new version of that 
-// string where the first letter of every word is replaced with the letter 'r'.
-// The dog constructor (which is what this is) should take a name input, and the
-// dog should receive the assigned name.
-
-
-var dog = generateDog('rex')
-
-console.assert(dog.legs === 4)
-console.assert(dog.speak('i love you') === 'r rove rou')
-console.assert(dog.name === 'rex')
-
-var dog = generateDog('carl')
-console.assert(dog.name === 'carl')
-
-
-
-// Part 4 
-
-// Write a function pluck() that, given a list of objects, extracts a list of
-// the values associated with a given property name.
-
-// e.g:
-// pluck(stooges, 'name')
-// ['moe','larry','curly']
-
-// tests
-// ---
-var stooges = [{name: 'moe', age: 40}, {name: 'larry', age: 50}, {name: 'curly', age: 60}]
-
-console.assert(pluck(stooges, 'name')[0] === 'moe')
-console.assert(pluck(stooges, 'age')[2] === 60)
+// for these problems you will need to use the for-in loop, and the special 
+// `this` keyword.
 
 
 // Part 5
 
-// Write a function reverseObjects that takes an array of objects as input
-// and returns an array of those same objects, but with the properties and 
-// values reversed.
+// Write a function called reverseObject(). It should take as input an object, 
+// and it should output a new object where the keys and values are reversed.
 
 
+var object = {
+    occupants: 4,
+    apartment_no: "2b",
+    structural_integrity: "failing"
+}
+
+var reversed = reverseObject(object)
+console.assert(reversed['2b'] === 'apartment_no')
+
+
+// Part 6
+
+// Write a function called reverseAll(). It should take as input an array of 
+// objects, and it should output an array of objects with the keys and values
+// reversed.
 
 var users = [{obama: 'president@gmail.com',hobby: 'basketball'},{trump: 'americamoneywin@yahoo.com', hobby:'dealmaking'},{bush: 'jeb!@hotmail.com',hobby:'portraiture'}]
 // should yield: [{'president@gmail.com': 'obama',basketball: 'hobby'}, ....]
@@ -89,44 +137,12 @@ console.assert(flippedUsers[0]['president@gmail.com'] === 'obama')
 console.assert(flippedUsers[1]['americamoneywin@yahoo.com'] === 'trump')
 console.assert(flippedUsers[1].dealmaking === 'hobby')
 
-// Part 6
-
-// The code below doesn't work. Can you fix it?
-
-var makeItTom = function(object) {
-	for (var prop in object) {
-		if (prop === 'name') object.prop = 'Tom'
-	}
-	return object
-}
-
-var sampleObject = {
-	mass: '5.972 × 10^24 kg',
-	age: '4.543 billion years',
-	name: 'Earth'
-}
-
-var planetTom = makeItTom(sampleObject)
-
-console.assert(planetTom.name === 'Tom')
-
-// VVV caution: hints below VVV
-
-console.assert(planetTom['name'] === 'Tom')
-console.assert(planetTom.prop === undefined)
-console.assert(planetTom['prop'] === undefined)
-
-// What did you learn about the difference between
-// bracket syntax and dot syntax for object attributes?
-
 
 // Part 7
-// -----------
+
 // Write a function where() that takes two inputs, a list of objects and 
 // a properties object. It should return a new list containing only those
-// objects that meet the key-value conditions.
-// -----------
-
+// objects that meet the key-value conditions in the properties object.
 
 var plays = [
     {title: "Cymbeline", author: "Shakespeare", year: 1623},
@@ -141,7 +157,7 @@ var plays = [
 var sh8spr = where(plays, {author: "Shakespeare"})
 console.assert(sh8spr instanceof Array)
 console.assert(sh8spr.length === 5)
-console.assert(sh8spr[0].title === "Cymbeline")
+console.assert(sh8spr[0]['title'] === "Cymbeline")
 
 sh8spr = where(plays, {author: "Shakespeare", year: 1611})
 console.assert(sh8spr.length === 0)
@@ -151,7 +167,6 @@ console.assert(sh8spr.length === 2)
 
 var midcentury = where(plays, {year: 1949})
 console.assert(midcentury.length === 2)
-
 
 // Part 8
 
