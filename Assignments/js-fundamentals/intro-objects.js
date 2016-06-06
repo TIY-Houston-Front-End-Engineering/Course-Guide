@@ -17,7 +17,7 @@ var tile = {
     color: "blue"
 }
 
-var tile2 = flipColor(obj)
+var tile2 = flipColor(tile)
 console.assert(tile2.color === "red")
 console.assert(flipColor(tile2).color === "blue")
 
