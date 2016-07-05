@@ -15,7 +15,7 @@ forEach([1, 2, 3, 4], function(a){ total *= a; })
 console.assert(total === 24)
 
 // ----------------------------
-// using forEach() from above, write your own reduce()
+// write your own reduce()
 // that takes an array and a function
 // ----------------------------
 
@@ -35,7 +35,7 @@ console.assert(
 
 
 // ----------------------------
-// using forEach() from above, write your own map()
+// write your own map()
 // that takes an array and a function
 // ----------------------------
 
@@ -52,7 +52,7 @@ console.assert(squares[2] === 9)
 console.assert(squares[3] === 16)
 
 // ----------------------------
-// using reduce() from above, write your own filter()
+// write your own filter()
 // that takes an array and a function
 // ----------------------------
 
@@ -66,11 +66,6 @@ var evens = filter([1, 2, 3, 4], function(v){ return v%2 === 0 })
 console.assert(evens[0] === 2)
 console.assert(evens[1] === 4)
 
-
-// ----------------------------
-// using reduce() from above, write your own sum()
-// that adds up all arguments to sum (note: variadic behavior)
-// ----------------------------
 
 // ----------------------------
 // using Array.sort(), sort the following array
