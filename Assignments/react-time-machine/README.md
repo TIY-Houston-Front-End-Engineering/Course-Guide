@@ -1,7 +1,7 @@
 #React.js Time Machine
 
 ## Requirements
-Using the React.js library, write a UI interface for a "time machine." The requirements for this interface are: 
+Using the React.js framework, write a UI interface for a "time machine." The requirements for this interface are: 
   - A readout showing the "current year." 
   - A button that will set the machine on a continuous path forward in time, evidenced by an incrementing year counter.  
   - A button that will stop the machine's progress.
