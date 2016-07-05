@@ -87,7 +87,7 @@ people.sort(function(a, b){
 // ---
 console.assert(people[0].name === "Brian")
 console.assert(people[1].name === "Jesse")
-console.assert(people[2].name === "Matt")
+console.assert(people[2].name === "Justin")
 
 // ----------------------------
 // Using Array.map(), Array.filter(), and Array.sort() on the
