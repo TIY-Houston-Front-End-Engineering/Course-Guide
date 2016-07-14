@@ -17,7 +17,7 @@ Prework is material that ensures you have the basic foundation required for the 
 
 ## After enrollment
 
-  1. Check the software and accounts you will need in the [syllabus](https://github.com/TIY-Houston-Front-End-Engineering/Course-Guide/blob/master/Resources/syllabus.md).
+  1. Check the software and accounts you will need in the [materials section of the syllabus](https://github.com/TIY-Houston-Front-End-Engineering/Course-Guide/blob/master/Resources/syllabus.md).
 
     If you don't have an account with any of these, sign up for them now:
     
