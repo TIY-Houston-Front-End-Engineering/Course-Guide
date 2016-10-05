@@ -7,7 +7,7 @@ Prework is material that ensures you have the basic foundation required for the 
 
   1. Work through the JavaScript track on CodeAcademy: http://www.codecademy.com/tracks/javascript. Go as far as you need in order to complete the task in (2), below.
   
-  2. Attempt the 23-question assessment here: http://tinyurl.com/zwsqqfc. You don't need to get every question right; you don't even need to *attempt* every question. Once you've completed as many as you can, send your (numbered) responses to the front-end javascript instructor. His email is justin.richards@theironyard.com.
+  2. Attempt the 23-question assessment here: http://tinyurl.com/jdfrdaa. You don't need to get every question right; you don't even need to *attempt* every question. Once you've completed as many as you can, send your (numbered) responses to the front-end javascript instructor. His email is justin.richards@theironyard.com.
   
   A few notes on the coding environment linked in the above url: 
   
@@ -17,7 +17,7 @@ Prework is material that ensures you have the basic foundation required for the 
 
 ## After enrollment
 
-  1. Check the software and accounts you will need in the [Materials sections](./syllabus.md/#materials).
+  1. Check the software and accounts you will need in the [materials section of the syllabus](https://github.com/TIY-Houston-Front-End-Engineering/Course-Guide/blob/master/Resources/syllabus.md).
 
     If you don't have an account with any of these, sign up for them now:
     

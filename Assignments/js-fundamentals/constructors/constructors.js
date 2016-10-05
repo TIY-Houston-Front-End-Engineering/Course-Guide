@@ -116,37 +116,13 @@ console.assert(jasper.knowledge === 101)
 /////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////
 
-
 // 5. ------------------------------------------------------------ //
-
-// Create a constructor called `KeepSecret`. The constructor function
-// itself should accept a parameter called `secret` it should store
-// this in a private variable (use a closure). Add a method to the
-// prototype that is called `squeal` that returns the secret string.
-
-// -- ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ - Your Answer - ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ -- //
-
-
-
-// -- ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ -- //
-
-// ==== Validating =============================================== //
-
-var mySecret = "My class rocks!";
-var dontTellNobody = new KeepSecret(mySecret);
-console.assert(dontTellNobody.squeal() === mySecret);
-
-// --------------------------------------------------------------- //
-
-/////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////
-
-// 6. ------------------------------------------------------------ //
 
 // Create a constructor called `Key`. Create another constructor
 // called `Safe`. Make the Safe constructor take 2 arguments. The
-// first argument can be any piece if data to keep safe. This must
-// be stored using a private variable like you did with KeepSecret.
+// first argument can be any piece of data to keep safe. Store it 
+// in a variable that is local to the constructor (i.e. var secret, 
+// not this.secret)
 // The 2nd param to the `Safe` constructor needs to be an instance
 // of `Key` you need to store it privately as well. Add a function
 // to the Safe prototype called `unlock` that accepts a key. If the
