@@ -143,6 +143,12 @@ console.assert(NUMBER === 96)
 // Part 10
 
 // Make the following assertion work:
+var factory = function() {
+	var innerFunc = function() {
+		console.log('hello world')
+	}
+	return innerFunc}
+
 
 console.assert(factory()() === 'hello world')  // INCEPTION!
 
